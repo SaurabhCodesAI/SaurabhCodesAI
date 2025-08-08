@@ -30,7 +30,6 @@
 ## 🏆 Featured Work
 
 ### VertexAutoGPT
-![Vertex Banner](./banner_vertex.png)
 **Autonomous Research Agent with Vector Memory, Tool Selection, and Cost-Aware Infrastructure**
 
 **Tech & Stack:** Python, Asyncio, LangChain, fine-tuned Llama 2 7B, FAISS VectorDB, Google Search API, ArXiv API, Browse, Code Execution, GCP Preemptible VMs, FastAPI, Docker
@@ -38,7 +37,6 @@
 ---
 
 ### Snap2Slides
-![Snap2Slides Banner](./banner_snap2slides.png)
 **AI-powered tool leveraging Gemini Vision Pro, Slides and API to transform visual notes into structured presentations in seconds.**
 
 **Tech & Stack:** Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Google Gemini Vision API, Auth0 (JWT), MongoDB
@@ -46,7 +44,6 @@
 ---
 
 ### core-dev-workflow
-![Core Workflow Banner](./banner_core_workflow.png)
 **Advanced core development automation and workflow orchestration framework.**
 
 **Tech & Stack:** Python, CI/CD, Docker, Workflow Orchestration
