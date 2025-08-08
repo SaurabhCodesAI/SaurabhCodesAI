@@ -1,16 +1,16 @@
-## Hi there 👋
+# 🌌 Saurabh Pareek
+**LLM Agent Engineer | AI Infrastructure Architect | Full-Stack Innovator**
 
-<!--
-**SaurabhCodesAI/SaurabhCodesAI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Engineering AI agents that run, learn, and survive in production.
 
-Here are some ideas to get you started:
+![Banner](link-to-custom-banner)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚡ Core Stack
+![Python](badge) ![Next.js](badge) ![AWS](badge) ![GCP](badge) ![Docker](badge) ![FastAPI](badge) ![LangChain](badge)
+
+## 🏆 Featured Work
+🔹 **[VertexAutoGPT](link)** — Autonomous Research Agent with Vector Memory, Tool Selection, and Cost-Aware Infra  
+🔹 **[Snap2Slides](link)** — MLH Hackathon build in 30 hrs, AI-generated presentations from notes/images  
+🔹 **[core-dev-workflow](link)** — Automation framework for dev workflows
+
+![GitHub Stats](stats-card-link) ![Streak Stats](streak-card-link)
