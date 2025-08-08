@@ -5,8 +5,6 @@
 
 > *Engineering AI agents that learn, adapt, and dominate in production.*
 
-![Banner](./banner.png)
-
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI+Engineer;MLOps+Specialist;Full-Stack+Innovator;Cloud+Optimizer)](https://git.io/typing-svg)  
