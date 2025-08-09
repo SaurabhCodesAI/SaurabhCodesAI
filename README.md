@@ -82,7 +82,7 @@
 
 ---
 
-## 🛠️ Contact — Minimal but Direct
+## 🛠️ Contact 
 <div align="center">
   <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=gold"/></a>
   <a href="mailto:saurabhpareek228@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=gold"/></a>
