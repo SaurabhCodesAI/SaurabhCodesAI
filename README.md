@@ -63,7 +63,7 @@
 
 ---
 
-## 📊 Strategic Metrics
+## Strategic Metrics
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=highcontrast&count_private=true&hide_border=true&title_color=007ACC&icon_color=007ACC&text_color=ffffff&bg_color=000000)](https://github.com/SaurabhCodesAI)
@@ -80,7 +80,7 @@
 
 ---
 
-## 🛠️ Contact 
+##  Contact 
 <div align="center">
   <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=007ACC"/></a>
   <a href="mailto:saurabhpareek228@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=007ACC"/></a>
