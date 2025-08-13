@@ -6,19 +6,18 @@
 </p>
 
 <h3 align="center">
-⚙️ LLM Infrastructure • AI/ML Systems • Full-Stack Engineering ⚙️
+⚙️ LLM Infrastructure Architect • Scalable AI Systems Engineer • Full-Stack Builder ⚙️
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&pause=1000&color=FFD700&center=true&vCenter=true&width=780&lines=Exploring+AI+System+Design;Building+Efficient+ML+Workflows;Experimenting+with+Full-Stack+Projects;Learning+Through+Open+Source+Contributions" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&pause=1000&color=FFD700&center=true&vCenter=true&width=780&lines=Architecting+AI+That+Prints+Money;Precision+MLOps+%26+Vector+Search+Specialist;High-Efficiency+LLM+Infrastructure;Zero-Friction+Product+Execution" alt="Typing Animation">
 </p>
 
 ---
 
 ## 🚀 About Me
-> I’m a **BCA student** passionate about building and experimenting with AI/ML systems, backend services, and automation workflows.  
-> Most of my work revolves around **Python-based AI tools**, **vector search**, and **full-stack prototypes**.  
-> I share my projects openly on GitHub — not as finished products, but as part of my **learning journey** toward building better, more efficient systems.
+> I design, optimize, and deploy **scalable AI ecosystems** that don’t just run — they **print value**.  
+> From high-efficiency **LLM infrastructure** to fully automated **AI research agents**, my builds are engineered for **speed, cost-efficiency, and market impact**.
 
 ---
 
@@ -38,21 +37,21 @@
 
 ---
 
-## 🜵 Projects
+## 🜵 Flagship Builds — Like Startup Products
 <table>
 <tr>
 <td width="50%">
   
 ### 🧠 VertexAutoGPT  
-Autonomous research agent with **vector memory**, **tool orchestration**, and cost-conscious cloud setup.  
-**Stack:** Python, Asyncio, LangChain, Llama 2, FAISS, Google Search API, ArXiv API, GCP Preemptible VMs, FastAPI, Docker  
+Autonomous research intelligence with **persistent vector memory**, **adaptive tool orchestration**, and **cloud cost optimization**.  
+**Stack:** Python, Asyncio, LangChain, fine-tuned Llama 2 7B, FAISS, Google Search API, ArXiv API, Tool Routing, GCP Preemptible VMs, FastAPI, Docker  
 [🔗 Open Repository](https://github.com/SaurabhCodesAI/VertexAutoGPT)  
 
 </td>
 <td width="50%">
   
 ### ⚡ Snap2Slides  
-Converts visual notes into presentation slides using **Gemini Vision Pro**.  
+Transforms **raw visual notes → polished presentations** in under 15 seconds via **Gemini Vision Pro**.  
 **Stack:** Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Google Gemini Vision API, Auth0, MongoDB  
 [🔗 Open Repository](https://github.com/SaurabhCodesAI/Snap2Slides)  
 
@@ -62,16 +61,16 @@ Converts visual notes into presentation slides using **Gemini Vision Pro**.
 <td width="50%">
   
 ### 🔄 core-dev-workflow  
-Automation scripts for **streamlining DevOps and CI/CD**.  
+Enterprise-grade **automation and CI/CD orchestration** for complex dev lifecycles.  
 **Stack:** Python, CI/CD, Docker, Workflow Automation  
 [🔗 Open Repository](https://github.com/SaurabhCodesAI/core-dev-workflow)  
 
 </td>
 <td width="50%">
   
-### 🛠 ENTAERA *(WIP)*  
-AI-powered idea-to-deployment experiments using **Kiro**.  
-**Stack:** Kiro, AI Agents, Cloud Infra, Automation Pipelines  
+### 🛠 Coming Soon — ENTAERA  
+AI co-founder platform that generates, evolves, and deploys **micro-startups from plain text**.  
+**Stack:** Kiro, AI Agents, Cloud Infra, Vector Search, Automation Pipelines  
 
 </td>
 </tr>
@@ -79,7 +78,7 @@ AI-powered idea-to-deployment experiments using **Kiro**.
 
 ---
 
-## 📊 GitHub Overview
+## 📊 Strategic Metrics
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=highcontrast&count_private=true&hide_border=true&title_color=FFD700&icon_color=FFD700&text_color=ffffff&bg_color=000000" height="170" alt="GitHub Stats">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaurabhCodesAI&theme=highcontrast&hide_border=true&ring=FFD700&fire=FFD700&currStreakLabel=FFD700" height="170" alt="GitHub Streak">
@@ -90,7 +89,7 @@ AI-powered idea-to-deployment experiments using **Kiro**.
 
 ---
 
-## 📬 Connect
+## 📬 Connect & Collaborate
 <p align="center">
   <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FFD700"/></a>
   <a href="mailto:saurabhpareek228@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=FFD700"/></a>
@@ -102,6 +101,7 @@ AI-powered idea-to-deployment experiments using **Kiro**.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=120&section=footer"/>
 </p>
+
 
 ---
 
