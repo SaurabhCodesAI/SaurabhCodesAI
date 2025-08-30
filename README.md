@@ -6,7 +6,7 @@ I enjoy working on projects that combine **machine learning, backend systems, an
 ---
 
 ## Technical Skills
-- **Languages:** Python, JavaScript/TypeScript  
+- **Languages:** Python, TypeScript  
 - **Frameworks & Tools:** FastAPI, Next.js, Docker, Asyncio  
 - **ML/AI:** LangChain, Llama 2, FAISS, Vector Databases  
 - **Cloud & Databases:** Google Cloud (GCP), MongoDB  
