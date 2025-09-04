@@ -5,6 +5,16 @@
 
 My thesis is that the next wave of AI innovation will be unlocked by superior developer infrastructure, not just model scale. I build foundational tools and systems designed to abstract complexity and accelerate the machine learning lifecycle—from autonomous research to production-grade deployment.
 
+<p>
+  <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:saurabhpareek228@gmail.com">
+    <img src="https://img.shields.io/badge/saurabhpareek228@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
 </div>
 
 ---
@@ -27,27 +37,27 @@ My thesis is that the next wave of AI innovation will be unlocked by superior de
 ### Thesis in Practice: Core Developments
 
 <details open>
-<summary><strong>VertexAutoGPT</strong> /// Autonomous Research Agent Framework</summary>
+<summary><strong>VertexAutoGPT</strong> /// Production-Grade Agentic Workflow Engine</summary>
 <br>
-An execution framework for autonomous AI agents, engineered for complex research tasks. This system integrates long-term vector memory and dynamic tool orchestration, optimized for cost-efficient, scalable deployment on cloud infrastructure. It serves as a proof-of-concept for abstracting the complexity of agentic workflows.
+An execution engine designed to solve the final-mile problem for autonomous AI: production deployment. It provides core primitives for agentic systems—persistent memory, dynamic tool integration, and cost-optimized cloud orchestration—radically reducing the engineering overhead required to move from prototype to scalable deployment. This is the infrastructure layer for building reliable, task-driven AI.
 <p>
   <code>Python</code> ⋅ <code>LangChain</code> ⋅ <code>GCP</code> ⋅ <code>FastAPI</code> ⋅ <code>FAISS</code> ⋅ <code>Llama 2</code>
 </p>
 </details>
 
 <details>
-<summary><strong>Snap2Slides</strong> /// Multimodal Content Generation Pipeline</summary>
+<summary><strong>Snap2Slides</strong> /// AI-Native Content Transformation Pipeline</summary>
 <br>
-A full-stack, AI-native application that transforms unstructured inputs (text, images) into structured presentation content in under 15 seconds. This project demonstrates rapid, multimodal data synthesis and serves as an experiment in building intuitive interfaces for complex AI capabilities.
+Targets a high-friction enterprise workflow—transforming unstructured data into communication-ready assets. The system acts as a generative fabric, using a multimodal pipeline to synthesize raw inputs (notes, images) into structured presentations in near real-time. This project validates a core product thesis: that the greatest immediate value of generative AI lies in building intuitive, high-velocity tools for tangible business workflows.
 <p>
   <code>Next.js</code> ⋅ <code>TypeScript</code> ⋅ <code>Gemini Vision API</code> ⋅ <code>MongoDB</code> ⋅ <code>Tailwind CSS</code>
 </p>
 </details>
 
 <details>
-<summary><strong>Core Dev Workflow</strong> /// Standardized CI/CD for Backend Services</summary>
+<summary><strong>Core Dev Workflow</strong> /// Standardized Infrastructure for Engineering Velocity</summary>
 <br>
-A reference architecture for container-based CI/CD, creating a reproducible and version-controlled environment for developing and deploying backend systems. This work focuses on establishing engineering velocity and reliability—a critical component of the developer infrastructure thesis.
+A prescriptive architecture for CI/CD that serves as the system of record for building and deploying backend services. It eliminates environment drift and compresses the code-to-cloud lifecycle by enforcing containerization and automation. This isn't just a workflow; it's a strategic asset that underpins the ability to ship complex systems reliably and at high velocity, forming the operational bedrock for any serious engineering effort.
 <p>
   <code>Python</code> ⋅ <code>Docker</code> ⋅ <code>GitHub Actions</code> ⋅ <code>Workflow Orchestration</code>
 </p>
@@ -58,22 +68,8 @@ A reference architecture for container-based CI/CD, creating a reproducible and 
 ### Signal & Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=aura_dark&count_private=true&hide_border=true&border_radius=10" alt="GitHub Stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaurabhCodesAI&layout=compact&theme=aura_dark&hide_border=true&border_radius=10&langs_count=6" alt="Top Languages" height="150"/>
+  <a href="https://github.com/SaurabhCodesAI">
+    <img height="150" src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=aura_dark&count_private=true&hide_border=true&border_radius=10" alt="GitHub Stats"/>
+    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaurabhCodesAI&layout=compact&theme=aura_dark&hide_border=true&border_radius=10&langs_count=6" alt="Top Languages"/>
+  </a>
 </p>
-
----
-
-<div align="center">
-
-  ### Contact & Professional Channels
-  
-  <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:saurabhpareek228@gmail.com">
-    <img src="https://img.shields.io/badge/saurabhpareek228@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  
-</div>
