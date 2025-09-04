@@ -1,91 +1,90 @@
+<!-- ======= 🜵 Profile Overview ======= -->
+
+<p align="center">
+  <h1 align="center">🜵 <strong style="letter-spacing:1px">Saurabh Pareek</strong></h1>
+  <p align="center"><em>LLM Infrastructure Architect • Scalable AI Systems Engineer • Full-Stack Builder</em></p>
+
+  <!-- animated typing -->
+  <div align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&pause=1000&color=F8F8F2&center=true&vCenter=true&width=700&lines=Architecting+AI+That+Prints+Money;Precision+MLOps+%26+Vector+Search+Specialist;High-Efficiency+LLM+Infrastructure;Zero-Friction+Product+Execution" alt="typing">
+    </a>
+  </div>
+</p>
+
+---
+
+## ⚡ Core Technical Stack
+<div align="center">
+<p>
+<img alt="Python" src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=gold"> 
+<img alt="Asyncio" src="https://img.shields.io/badge/Asyncio-000000?style=for-the-badge&logoColor=white"> 
+<img alt="LangChain" src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logoColor=white"> 
+<img alt="Llama2" src="https://img.shields.io/badge/Llama2-000000?style=for-the-badge"> 
+<img alt="FAISS" src="https://img.shields.io/badge/FAISS-000000?style=for-the-badge"> 
+<img alt="GCP" src="https://img.shields.io/badge/GCP-000000?style=for-the-badge&logo=googlecloud&logoColor=white"> 
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=gold"> 
+<img alt="Docker" src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white"> 
+<img alt="GoogleAPIs" src="https://img.shields.io/badge/Google%20APIs-000000?style=for-the-badge"> 
+<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=gold">
+</p>
+</div>
+
+---
+
+## 🜵 Signature Builds — Flagship Projects
 <div align="center">
 
-██████╗ ██╗   ██╗██████╗  █████╗ ██████╗ ██╗  ██╗██████╗     ██████╗  █████╗ ██████╗ ███████╗██╗  ██╗
-██╔══██╗██║   ██║██╔══██╗██╔══██╗██╔══██╗██║  ██║██╔══██╗    ██╔══██╗██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
-██████╔╝██║   ██║██████╔╝███████║██████╔╝███████║██████╔╝    ██████╔╝███████║██████╔╝█████╗  █████╔╝
-██╔═══╝ ██║   ██║██╔══██╗██╔══██║██╔══██╗██╔══██║██╔══██╗    ██╔══██╗██╔══██║██╔══██╗██╔══╝  ██╔═██╗
-██║     ╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║██████╔╝    ██████╔╝██║  ██║██████╔╝███████╗██║  ██╗
-╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+<!-- Card 1 -->
+<div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,215,0,0.15); border-radius:14px; padding:16px; width:920px; margin:12px auto;">
+  <h3 style="margin:4px 0;"> <strong>VertexAutoGPT</strong></h3>
+  <p style="margin:6px 0 10px 0;"><em>Autonomous research intelligence with persistent vector memory, adaptive tool orchestration, and cloud cost optimization.</em></p>
+  <p style="margin:6px 0;"><strong>Stack:</strong> Python, Asyncio, LangChain, fine-tuned Llama 2 7B, FAISS VectorDB, Google Search API, ArXiv API, Browse, Code Execution, GCP Preemptible VMs, FastAPI, Docker</p>
+  <p style="margin:8px 0;">
+    <a href="https://github.com/SaurabhCodesAI/VertexAutoGPT" target="_blank">Open Repository →</a>
+  </p>
+</div>
 
+<!-- Card 2 -->
+<div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,215,0,0.15); border-radius:14px; padding:16px; width:920px; margin:12px auto;">
+  <h3 style="margin:4px 0;"> <strong>Snap2Slides</strong></h3>
+  <p style="margin:6px 0 10px 0;"><em>Transforms raw visual notes into polished presentations in under 15 seconds via Gemini Vision Pro.</em></p>
+  <p style="margin:6px 0;"><strong>Stack:</strong> Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion, Google Gemini Vision API, Auth0 (JWT), MongoDB</p>
+  <p style="margin:8px 0;">
+    <a href="https://github.com/SaurabhCodesAI/Snap2Slides" target="_blank">Open Repository →</a>
+  </p>
+</div>
 
-*Architecting the infrastructure of intelligence.*
+<!-- Card 3 -->
+<div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,215,0,0.15); border-radius:14px; padding:16px; width:920px; margin:12px auto;">
+  <h3 style="margin:4px 0;"> <strong>core-dev-workflow</strong></h3>
+  <p style="margin:6px 0 10px 0;"><em>Enterprise-grade automation and orchestrated DevOps workflows.</em></p>
+  <p style="margin:6px 0;"><strong>Stack:</strong> Python, CI/CD, Docker, Workflow Orchestration</p>
+  <p style="margin:8px 0;">
+    <a href="https://github.com/SaurabhCodesAI/core-dev-workflow" target="_blank">Open Repository →</a>
+  </p>
+</div>
 
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/--_✦_THE_ARSENAL_✦_--_?color=000000&style=for-the-badge&labelColor=000000" />
-</p>
+---
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <ul>
-        <li>▸ <strong>Languages:</strong> Python, TypeScript</li>
-        <li>▸ <strong>Backend:</strong> FastAPI, Next.js</li>
-        <li>▸ <strong>Databases:</strong> MongoDB, Vector DBs (FAISS)</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <ul>
-        <li>▸ <strong>DevOps & Infra:</strong> Docker, GCP, CI/CD</li>
-        <li>▸ <strong>AI/ML Frameworks:</strong> LangChain, LLMs</li>
-        <li>▸ <strong>Core Principles:</strong> Scalability, Automation, Velocity</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## 📊 Strategic Metrics
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/--_✦_CURATED_SHOWCASE_✦_--_?color=000000&style=for-the-badge&labelColor=000000" />
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=highcontrast&count_private=true&hide_border=true&title_color=FFD700&icon_color=FFD700&text_color=ffffff&bg_color=000000)](https://github.com/SaurabhCodesAI)
 
-<details open>
-<summary>
-  <strong style="font-size: 1.1em;">VertexAutoGPT</strong>
-  <br>
-  <small>An execution engine for production-grade autonomous agents.</small>
-</summary>
-<br>
-This system provides the core primitives for agentic workflows—persistent memory, dynamic tool integration, and cost-optimized cloud orchestration. It's designed to solve the final-mile problem of moving AI agents from prototype to reliable, scalable deployment.
-<br><br>
-<em><strong>Key Architecture:</strong> Persistent Vector Memory (FAISS), Dynamic Tool Orchestration, Serverless GCP Execution.</em>
-</details>
+[![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=SaurabhCodesAI&theme=highcontrast&hide_border=true&ring=FFD700&fire=FFD700&currStreakLabel=FFD700)](https://github.com/SaurabhCodesAI)
 
-<details>
-<summary>
-  <strong style="font-size: 1.1em;">Snap2Slides</strong>
-  <br>
-  <small>An AI-native pipeline for high-velocity content transformation.</small>
-</summary>
-<br>
-This application targets a high-friction enterprise workflow: transforming unstructured data into communication-ready assets. It acts as a generative fabric, synthesizing raw notes and images into structured presentations in near real-time, validating the thesis that the greatest immediate value of GenAI lies in building intuitive tools for tangible business problems.
-<br><br>
-<em><strong>Key Architecture:</strong> Multimodal Processing (Gemini Vision), Asynchronous Backend, Scalable Document DB (MongoDB).</em>
-</details>
+[![Trophies](https://github-profile-trophy.vercel.app/?username=SaurabhCodesAI&theme=algolia&margin-w=5&margin-h=5&column=4&no-bg=true&no-frame=true)](https://github.com/SaurabhCodesAI)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/--_✦_DIGITAL_PRESENCE_✦_--_?color=000000&style=for-the-badge&labelColor=000000" />
-</p>
+</div>
 
-<table>
-  <tr>
-    <td width="65%" valign="middle">
-      <a href="https://github.com/SaurabhCodesAI">
-        <img src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=aura_dark&count_private=true&hide_border=true&border_radius=10" alt="GitHub Stats"/>
-      </a>
-    </td>
-    <td width="35%" valign="middle" align="center">
-      <a href="https://github.com/SaurabhCodesAI" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/GitHub-Profile-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-      </a>
-      <br><br>
-      <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-      </a>
-      <br><br>
-      <a href="mailto:saurabhpareek228@gmail.com" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-      </a>
-    </td>
-  </tr>
-</table>
+---
+
+## 🛠️ Contact 
+<div align="center">
+  <a href="https://www.linkedin.com/in/saurabh-pareek-5b1702331" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=gold"/></a>
+  <a href="mailto:saurabhpareek228@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=gold"/></a>
+  <a href="https://x.com/Saurabh784088" target="_blank"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=gold"/></a>
+</div>
