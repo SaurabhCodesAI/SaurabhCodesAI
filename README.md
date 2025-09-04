@@ -70,6 +70,12 @@ A prescriptive architecture for CI/CD that serves as the system of record for bu
 <p align="center">
   <a href="https://github.com/SaurabhCodesAI">
     <img height="150" src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=aura_dark&count_private=true&hide_border=true&border_radius=10" alt="GitHub Stats"/>
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaurabhCodesAI&layout=compact&theme=aura_dark&hide_border=true&border_radius=10&langs_count=6" alt="Top Languages"/>
   </a>
 </p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-75%25-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/TypeScript-15%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/Shell-10%25-89E051?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell"/>
+</p>
+
+---
