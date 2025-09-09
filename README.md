@@ -180,7 +180,7 @@ Production grade Unicode aware character frequency mapping module featuring stre
 
 **AI Workflow Automation & Dashboard Development**
 
-Developed AI based automation features to streamline internal processes and improve efficiency through Python tooling and web dashboards.
+Identified key operational bottlenecks and built an AI driven solution using Python to automate repetitive data tasks, freeing up the team to focus on higher impact work.
 
 <details>
 <summary><b>🔍 View Experience Details</b></summary>
@@ -289,7 +289,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 ### 🎯 Currently Seeking
 
-**Remote Internships in:**
+**Remote Contracts in:**
 - AI/ML Engineering
 - LLM Applications & AI Agents  
 - AI Infrastructure & MLOps
