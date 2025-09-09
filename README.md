@@ -28,7 +28,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
     <td width="60%">
       <h3>🎯 What I Build</h3>
       <div align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="120">
+        <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="120">
       </div>
       <ul>
         <li><b>Autonomous AI Agents</b> that can reason, research, and take action</li>
@@ -40,7 +40,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
     <td width="40%">
       <h3>💡 My Approach</h3>
       <div align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="120">
+        <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="120">
       </div>
       <ul>
         <li><b>Systems Thinking</b>: Building integrated solutions</li>
@@ -229,7 +229,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🛠️ Technology Stack
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="250">
+  <img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif" width="250">
 </div>
 
 <div align="center">
