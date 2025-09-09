@@ -16,7 +16,7 @@
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="500">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
@@ -28,7 +28,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
     <td width="60%">
       <h3>🎯 What I Build</h3>
       <div align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="120">
+        <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="120">
       </div>
       <ul>
         <li><b>Autonomous AI Agents</b> that can reason, research, and take action</li>
@@ -55,7 +55,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
 ## 🚀 Projects Delivered
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
 
 ### [VertexAutoGPT](https://github.com/SaurabhCodesAI/VertexAutoGPT)
@@ -167,7 +167,7 @@ Production grade Unicode aware character frequency mapping module featuring stre
 ## 💼 Professional Experience
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d42b-4505-b9d4-338b98001e49.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
 </div>
 
 ### AI Engineering Intern | [Cushion](https://cushion.ai)
@@ -229,7 +229,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🛠️ Technology Stack
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif" width="250">
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="300">
 </div>
 
 <div align="center">
@@ -248,7 +248,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🎓 Credentials & Certifications
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="250">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="300">
 </div>
 
 <div align="center">
@@ -275,7 +275,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🔗 Connect & Collaborate
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284094-e50ceae2-de86-4dd0-a8c5-16b3649d6159.gif" width="250">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
 </div>
 
 <div align="center">
