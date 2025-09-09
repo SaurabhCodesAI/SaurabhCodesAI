@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.svg" alt="Saurabh Pareek - AI Engineer" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer+🤖;Building+the+Future+with+AI+🚀" alt="Saurabh Pareek - AI Engineer Header" />
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -19,14 +19,10 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="400">
-</div>
-
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=80&lines=🤖+Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;🚀+LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;⚡+85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;🧠+Research+to+Production+%7C+Real-world+AI+Solutions;💡+VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=🤖+Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;🚀+LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;⚡+85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;🧠+Research+to+Production+%7C+Real-world+AI+Solutions;💡+VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
 </div>
 
 I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
@@ -100,12 +96,13 @@ An intelligent system capable of ingesting and summarizing information from mult
   │                 │    │                  │    │  Gathering        │
   └─────────────────┘    └──────────────────┘    └───────────────────┘
   ```
-<h4>Results & Impact</h4>
-<ul>
-  <li>Reduced research time by 15x compared to manual methods</li>
-  <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
-  <li>Sub second context retrieval for real time decision making</li>
-</ul>
+
+  <h4>Results & Impact</h4>
+  <ul>
+    <li>Reduced research time by 15x compared to manual methods</li>
+    <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
+    <li>Sub second context retrieval for real time decision making</li>
+  </ul>
 </details>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
@@ -232,8 +229,6 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </ul>
 </details>
 
-
-
 ## 🛠️ Technology Stack
 
 <div align="center">
@@ -298,12 +293,15 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 ### 🎯 Currently Seeking
+
 **Remote Internships in:**
-• AI/ML Engineering
-• LLM Applications & AI Agents  
-• AI Infrastructure & MLOps
+- AI/ML Engineering
+- LLM Applications & AI Agents  
+- AI Infrastructure & MLOps
 
 **Ideal Collaboration:** Building AI systems where performance, memory constraints, and real world deployment challenges matter.
+
+---
 
 <div align="center">
 <b>"Building intelligent systems that augment human capabilities and solve real world problems"</b>
@@ -315,5 +313,4 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 <div align="center">
   <sub>Built with ❤️ by <a href="https://github.com/SaurabhCodesAI">Saurabh Pareek</a> • AI Engineer & Autonomous Systems Developer</sub>
-</div>
 </div>
