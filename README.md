@@ -25,6 +25,10 @@
 
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=80&lines=🤖+Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;🚀+LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;⚡+85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;🧠+Research+to+Production+%7C+Real-world+AI+Solutions;💡+VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
+</div>
+
 I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
 
 <table>
@@ -249,6 +253,38 @@ Contributed to backend logic and internal tooling to improve system reliability 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 </div>
 
+## 📊 GitHub Analytics & Performance Metrics
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="400">
+</div>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaurabhCodesAI&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaurabhCodesAI&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" width="60%"/>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaurabhCodesAI&theme=tokyonight" alt="GitHub Profile Summary" width="80%"/>
+</div>
+
+## ⚡ Coding Activity & Contributions
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaurabhCodesAI&theme=tokyo-night&hide_border=true&custom_title=AI%20Engineering%20Contribution%20Graph" width="90%"/>
+</div>
+
 ## 🎓 Credentials & Certifications
 
 <div align="center">
@@ -272,6 +308,34 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </table>
 </div>
 
+## 🏆 Achievements & Recognition
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SaurabhCodesAI&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/🚀_Project-VertexAutoGPT-success?style=for-the-badge&logo=rocket&logoColor=white"/>
+        <br><b>Flagship AI Agent</b>
+        <br><i>92% Tool Selection Accuracy</i>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/⚡_Performance-15x_Speed_Boost-orange?style=for-the-badge&logo=lightning&logoColor=white"/>
+        <br><b>Research Optimization</b>
+        <br><i>Autonomous Information Processing</i>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/💰_Cost_Savings-85%25_Reduction-brightgreen?style=for-the-badge&logo=dollar-sign&logoColor=white"/>
+        <br><b>Infrastructure Efficiency</b>
+        <br><i>GCP Preemptible VMs + Docker</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
 <div align="center">
 <img src="analytics.svg" alt="AI Engineering Metrics" width="80%"/>
 </div>
@@ -283,9 +347,18 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together+🚀;Open+to+Collaboration+on+Autonomous+AI+Systems+🤖;Remote+Opportunities+Welcome+🌍" alt="Collaboration Invite" />
+</div>
+
+<div align="center">
 <a href="https://www.linkedin.com/in/saurabh-pareekk/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/SaurabhCodesAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="mailto:saurabhpareek228@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=SaurabhCodesAI&style=for-the-badge&color=brightgreen&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/SaurabhCodesAI?style=for-the-badge&color=blue&label=FOLLOWERS" alt="GitHub Followers"/>
 </div>
 
 ### 🎯 Currently Seeking
@@ -300,5 +373,23 @@ Contributed to backend logic and internal tooling to improve system reliability 
 <b>"Building intelligent systems that augment human capabilities and solve real world problems"</b>
 <br><br>
 <i>VertexAutoGPT: Where autonomous intelligence meets practical engineering</i>
+</div>
+
+## 🐍 Contribution Snake Animation
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="200">
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&pause=5000&color=64FFDA&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting!+⭐+Star+my+repos+if+you+find+them+useful!" alt="Thank You Message" />
+</div>
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/SaurabhCodesAI">Saurabh Pareek</a> • AI Engineer & Autonomous Systems Developer</sub>
 </div>
 </div>
