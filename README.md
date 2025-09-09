@@ -3,13 +3,68 @@
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-67-blue?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-1K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/EXPERIENCE-1.5%2B%20YEARS-brightgreen?style=for-the-badge&logo=clock&logoColor=white"/>
   <img src="https://img.shields.io/badge/PROJECTS-7%2B%20DELIVERED-orange?style=for-the-badge&logo=rocket&logoColor=white"/>
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
 </div>
 
 ## 🧠 Executive Summary
+
+<div align="center">
+  <div id="quote-container" style="height: 30px; margin: 20px 0; font-style: italic; color: #64ffda; font-size: 16px;">
+    <span id="animated-quote"></span>
+  </div>
+</div>
+
+<script>
+const quotes = [
+  "You don't get to go through life only doing the things that you feel like doing.",
+  "The faster you work, the more work you get done.",
+  "Be more than motivated, be more than driven, become literally obsessed to the point where people think you're f*cking nuts."
+];
+
+let currentQuote = 0;
+const quoteElement = document.getElementById('animated-quote');
+
+function typeQuote(text, callback) {
+  let i = 0;
+  quoteElement.textContent = '';
+  const timer = setInterval(() => {
+    quoteElement.textContent += text[i];
+    i++;
+    if (i >= text.length) {
+      clearInterval(timer);
+      setTimeout(callback, 2000);
+    }
+  }, 50);
+}
+
+function eraseQuote(callback) {
+  const text = quoteElement.textContent;
+  let i = text.length;
+  const timer = setInterval(() => {
+    quoteElement.textContent = text.slice(0, i);
+    i--;
+    if (i < 0) {
+      clearInterval(timer);
+      callback();
+    }
+  }, 30);
+}
+
+function showNextQuote() {
+  typeQuote(quotes[currentQuote], () => {
+    eraseQuote(() => {
+      currentQuote = (currentQuote + 1) % quotes.length;
+      setTimeout(showNextQuote, 500);
+    });
+  });
+}
+
+// Start the animation
+showNextQuote();
+</script>
 
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real-world problems through intelligent decision-making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks—all while optimizing for cost efficiency.
 
@@ -127,41 +182,6 @@ Designing and building a fully autonomous research agent capable of self-directe
 </ul>
 </details>
 
-### [AI Engineering Intern at Cushion](https://cushion.ai)
-
-**AI Workflow Automation**
-
-Worked on AI-based automation features to streamline internal processes and improve efficiency through Python tooling and web dashboards.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Contributions</h4>
-<ul>
-  <li>Built internal tools to automate manual workflows</li>
-  <li>Contributed to web dashboard development (frontend and backend)</li>
-  <li>Created modular Python scripts for small-scale AI task automation</li>
-  <li>Implemented clean, efficient code following best practices</li>
-</ul>
-</details>
-
-### [Software Engineering Intern at Internshala](https://internshala.com)
-
-**Backend Development & Tooling**
-
-Contributed to backend logic and internal tooling to improve system reliability and efficiency in a remote startup environment.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Key Responsibilities</h4>
-<ul>
-  <li>Helped write clean, testable code for improved reliability</li>
-  <li>Fixed bugs and improved small modules</li>
-  <li>Implemented efficient workflows in a remote setup</li>
-</ul>
-</details>
-
 ### [Ultimate Character Frequency Map](https://github.com/SaurabhCodesAI/ultimate-char-freq)
 
 **Advanced Text Processing Module**
@@ -181,23 +201,63 @@ Production-grade Unicode-aware character frequency mapping module featuring stre
 </ul>
 </details>
 
-### [GitHub Automation Workflows](https://github.com/SaurabhCodesAI/.github)
+## 💼 Professional Experience
 
-**CI/CD & Profile Automation**
+### AI Engineering Intern | [Cushion](https://cushion.ai)
+*Remote • 2024*
 
-Created GitHub Actions workflows for automated profile updates, continuous integration, and deployment pipelines to maintain an active and current online presence.
+**AI Workflow Automation & Dashboard Development**
+
+Developed AI-based automation features to streamline internal processes and improve efficiency through Python tooling and web dashboards.
 
 <details>
-<summary><b>🔍 View Project Details</b></summary>
+<summary><b>🔍 View Experience Details</b></summary>
 
-<h4>Implementation</h4>
+<h4>Key Contributions</h4>
 <ul>
-  <li>Automated SVG generation for dynamic profile visuals</li>
-  <li>Status update workflows for project maintenance</li>
-  <li>Health monitoring for production systems</li>
-  <li>Continuous deployment pipelines for web applications</li>
+  <li>Built internal tools to automate manual workflows using AI/ML techniques</li>
+  <li>Contributed to web dashboard development (frontend and backend)</li>
+  <li>Created modular Python scripts for small-scale AI task automation</li>
+  <li>Implemented clean, efficient code following best practices</li>
+  <li>Collaborated in a remote startup environment with rapid iteration cycles</li>
+</ul>
+
+<h4>Technologies Used</h4>
+<ul>
+  <li>Python for automation scripts and backend logic</li>
+  <li>Web technologies for dashboard development</li>
+  <li>AI/ML libraries for workflow optimization</li>
 </ul>
 </details>
+
+### Software Engineering Intern | [Internshala](https://internshala.com)
+*Remote • 2023*
+
+**Backend Development & System Reliability**
+
+Contributed to backend logic and internal tooling to improve system reliability and efficiency in a remote startup environment.
+
+<details>
+<summary><b>🔍 View Experience Details</b></summary>
+
+<h4>Key Responsibilities</h4>
+<ul>
+  <li>Helped write clean, testable code for improved system reliability</li>
+  <li>Fixed bugs and improved small modules in the existing codebase</li>
+  <li>Implemented efficient workflows in a remote development setup</li>
+  <li>Collaborated with senior developers on feature implementation</li>
+  <li>Participated in code reviews and best practice discussions</li>
+</ul>
+
+<h4>Technical Skills Developed</h4>
+<ul>
+  <li>Backend development patterns and practices</li>
+  <li>Code quality and testing methodologies</li>
+  <li>Remote collaboration and workflow management</li>
+</ul>
+</details>
+
+
 
 ## 🛠️ Technology Stack
 
@@ -240,7 +300,7 @@ Created GitHub Actions workflows for automated profile updates, continuous integ
 ## 🔗 Connect & Collaborate
 
 <div align="center">
-<a href="https://linkedin.com/in/saurabhpareek"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/saurabh-pareekk/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/SaurabhCodesAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="mailto:saurabhpareek228@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </div>
