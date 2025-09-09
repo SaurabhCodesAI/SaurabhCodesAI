@@ -3,7 +3,8 @@
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-1K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-168-blue?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FOLLOWERS-140-blue?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/EXPERIENCE-1.5+%20YEARS-brightgreen?style=for-the-badge&logo=clock&logoColor=white"/>
   <img src="https://img.shields.io/badge/PROJECTS-7+%20DELIVERED-orange?style=for-the-badge&logo=rocket&logoColor=white"/>
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
