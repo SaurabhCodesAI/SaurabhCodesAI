@@ -12,82 +12,41 @@
 ## 🧠 Executive Summary
 
 <div align="center">
-  <div id="quote-container" style="height: 30px; margin: 20px 0; font-style: italic; color: #64ffda; font-size: 16px;">
-    <span id="animated-quote"></span>
-  </div>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=800&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing;The+faster+you+work%2C+the+more+work+you+get+done;Be+more+than+motivated%2C+be+more+than+driven%2C+become+obsessed!" alt="Motivational Quotes" />
 </div>
 
-<script>
-const quotes = [
-  "You don't get to go through life only doing the things that you feel like doing.",
-  "The faster you work, the more work you get done.",
-  "Be more than motivated, be more than driven, become literally obsessed to the point where people think you're f*cking nuts."
-];
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+</div>
 
-let currentQuote = 0;
-const quoteElement = document.getElementById('animated-quote');
+I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
-function typeQuote(text, callback) {
-  let i = 0;
-  quoteElement.textContent = '';
-  const timer = setInterval(() => {
-    quoteElement.textContent += text[i];
-    i++;
-    if (i >= text.length) {
-      clearInterval(timer);
-      setTimeout(callback, 2000);
-    }
-  }, 50);
-}
-
-function eraseQuote(callback) {
-  const text = quoteElement.textContent;
-  let i = text.length;
-  const timer = setInterval(() => {
-    quoteElement.textContent = text.slice(0, i);
-    i--;
-    if (i < 0) {
-      clearInterval(timer);
-      callback();
-    }
-  }, 30);
-}
-
-function showNextQuote() {
-  typeQuote(quotes[currentQuote], () => {
-    eraseQuote(() => {
-      currentQuote = (currentQuote + 1) % quotes.length;
-      setTimeout(showNextQuote, 500);
-    });
-  });
-}
-
-// Start the animation
-showNextQuote();
-</script>
-
-I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real-world problems through intelligent decision-making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks—all while optimizing for cost efficiency.
-
-I specialize in creating AI systems that bridge cutting-edge research with practical, deployable solutions.
+I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
 
 <table>
   <tr>
     <td width="60%">
       <h3>🎯 What I Build</h3>
+      <div align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+      </div>
       <ul>
         <li><b>Autonomous AI Agents</b> that can reason, research, and take action</li>
-        <li><b>Vector Memory Systems</b> that enable long-term information retention</li>
+        <li><b>Vector Memory Systems</b> that enable long term information retention</li>
         <li><b>Dynamic Tool Selection</b> frameworks for intelligent resource usage</li>
-        <li><b>Cost-Efficient AI Infrastructure</b> for real-world deployment</li>
+        <li><b>Cost Efficient AI Infrastructure</b> for real world deployment</li>
       </ul>
     </td>
     <td width="40%">
       <h3>💡 My Approach</h3>
+      <div align="center">
+        <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="100">
+      </div>
       <ul>
         <li><b>Systems Thinking</b>: Building integrated solutions</li>
         <li><b>Practical Engineering</b>: Focus on deployment readiness</li>
-        <li><b>Research-Driven</b>: Applying latest innovations</li>
-        <li><b>Cost-Aware Design</b>: Efficiency at the core</li>
+        <li><b>Research Driven</b>: Applying latest innovations</li>
+        <li><b>Cost Aware Design</b>: Efficiency at the core</li>
       </ul>
     </td>
   </tr>
@@ -95,20 +54,24 @@ I specialize in creating AI systems that bridge cutting-edge research with pract
 
 ## 🚀 Projects Delivered
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="200">
+</div>
+
 ### [VertexAutoGPT](https://github.com/SaurabhCodesAI/VertexAutoGPT)
 
 **Autonomous Research Agent**
 
-An intelligent system capable of ingesting and summarizing information from multiple sources using a dynamic tool selection mechanism and a vector-based memory for long-term context retention.
+An intelligent system capable of ingesting and summarizing information from multiple sources using a dynamic tool selection mechanism and a vector based memory for long term context retention.
 
 <details>
   <summary><b>🔍 View Project Details</b></summary>
   
   <h4>Key Features</h4>
   <ul>
-    <li><b>Vector Memory System</b>: FAISS-powered semantic storage and retrieval</li>
+    <li><b>Vector Memory System</b>: FAISS powered semantic storage and retrieval</li>
     <li><b>Dynamic Tool Selection</b>: Intelligent routing to Google Search API, Arxiv API, Browse function</li>
-    <li><b>Self-Improvement Loop</b>: Rule-based feedback for enhanced tool selection</li>
+    <li><b>Self Improvement Loop</b>: Rule based feedback for enhanced tool selection</li>
     <li><b>Cost Optimization</b>: GCP Preemptible VMs with Docker for 85% cost reduction</li>
     <li><b>Async Architecture</b>: Python, AsyncIO, LangChain for concurrent operations</li>
   </ul>
@@ -133,15 +96,15 @@ An intelligent system capable of ingesting and summarizing information from mult
 <ul>
   <li>Reduced research time by 15x compared to manual methods</li>
   <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
-  <li>Sub-second context retrieval for real-time decision making</li>
+  <li>Sub second context retrieval for real time decision making</li>
 </ul>
 </details>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
 
-**AI-Powered Presentation Generator (Hackathon)**
+**AI Powered Presentation Generator (Hackathon)**
 
-Built during Major League Hacking, Snap2Slides transforms screenshots, images, and notes into professional presentations using AI-driven content analysis and theme generation.
+Built during Major League Hacking, Snap2Slides transforms screenshots, images, and notes into professional presentations using AI driven content analysis and theme generation.
 
 <details>
 <summary><b>🔍 View Project Details</b></summary>
@@ -174,11 +137,11 @@ Designing and building a fully autonomous research agent capable of self-directe
 
 <h4>Implementation Highlights</h4>
 <ul>
-  <li>FAISS vector memory system for long-term context retention</li>
+  <li>FAISS vector memory system for long term context retention</li>
   <li>Dynamic tool router for selecting optimal APIs at runtime</li>
-  <li>Feedback loop mechanism for agent self-improvement</li>
+  <li>Feedback loop mechanism for agent self improvement</li>
   <li>FastAPI backend in a Dockerized environment</li>
-  <li>Fine-tuned LLaMa 2 7B for optimal latency and memory constraints</li>
+  <li>Fine tuned LLaMa 2 7B for optimal latency and memory constraints</li>
 </ul>
 </details>
 
@@ -186,14 +149,14 @@ Designing and building a fully autonomous research agent capable of self-directe
 
 **Advanced Text Processing Module**
 
-Production-grade Unicode-aware character frequency mapping module featuring stream-based normalization, regex filtering, and thread-safe implementation.
+Production grade Unicode aware character frequency mapping module featuring stream based normalization, regex filtering, and thread safe implementation.
 
 <details>
 <summary><b>🔍 View Project Details</b></summary>
 
 <h4>Technical Features</h4>
 <ul>
-  <li>Stream-based normalization for efficient processing</li>
+  <li>Stream based normalization for efficient processing</li>
   <li>Regex filtering for targeted character analysis</li>
   <li>Thread safety for parallel processing</li>
   <li>Memory profiling and optimization for large datasets</li>
@@ -203,12 +166,16 @@ Production-grade Unicode-aware character frequency mapping module featuring stre
 
 ## 💼 Professional Experience
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="200">
+</div>
+
 ### AI Engineering Intern | [Cushion](https://cushion.ai)
 *Remote • 2024*
 
 **AI Workflow Automation & Dashboard Development**
 
-Developed AI-based automation features to streamline internal processes and improve efficiency through Python tooling and web dashboards.
+Developed AI based automation features to streamline internal processes and improve efficiency through Python tooling and web dashboards.
 
 <details>
 <summary><b>🔍 View Experience Details</b></summary>
@@ -217,7 +184,7 @@ Developed AI-based automation features to streamline internal processes and impr
 <ul>
   <li>Built internal tools to automate manual workflows using AI/ML techniques</li>
   <li>Contributed to web dashboard development (frontend and backend)</li>
-  <li>Created modular Python scripts for small-scale AI task automation</li>
+  <li>Created modular Python scripts for small scale AI task automation</li>
   <li>Implemented clean, efficient code following best practices</li>
   <li>Collaborated in a remote startup environment with rapid iteration cycles</li>
 </ul>
@@ -260,6 +227,10 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 
 ## 🛠️ Technology Stack
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="200">
+</div>
 
 <div align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -307,16 +278,15 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 ### 🎯 Currently Seeking
 **Remote Internships in:**
-- AI/ML Engineering
-- LLM Applications & AI Agents  
-- AI Infrastructure & MLOps
+• AI/ML Engineering
+• LLM Applications & AI Agents  
+• AI Infrastructure & MLOps
 
-**Ideal Collaboration:** Building AI systems where performance, memory constraints, and real-world deployment challenges matter.
-
----
+**Ideal Collaboration:** Building AI systems where performance, memory constraints, and real world deployment challenges matter.
 
 <div align="center">
-<b>"Building intelligent systems that augment human capabilities and solve real-world problems"</b>
+<b>"Building intelligent systems that augment human capabilities and solve real world problems"</b>
 <br><br>
 <i>VertexAutoGPT: Where autonomous intelligence meets practical engineering</i>
+</div>
 </div>
