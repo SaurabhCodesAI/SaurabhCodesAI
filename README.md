@@ -3,8 +3,7 @@
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-168-blue?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FOLLOWERS-140-blue?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-1K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/EXPERIENCE-1.5+%20YEARS-brightgreen?style=for-the-badge&logo=clock&logoColor=white"/>
   <img src="https://img.shields.io/badge/PROJECTS-7+%20DELIVERED-orange?style=for-the-badge&logo=rocket&logoColor=white"/>
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
@@ -286,11 +285,6 @@ Contributed to backend logic and internal tooling to improve system reliability 
 <a href="https://www.linkedin.com/in/saurabh-pareekk/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/SaurabhCodesAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="mailto:saurabhpareek228@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SaurabhCodesAI&style=for-the-badge&color=brightgreen&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/SaurabhCodesAI?style=for-the-badge&color=blue&label=FOLLOWERS" alt="GitHub Followers"/>
 </div>
 
 ### 🎯 Currently Seeking
