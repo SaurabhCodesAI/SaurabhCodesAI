@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer+🤖;Building+the+Future+with+AI+🚀" alt="Saurabh Pareek - AI Engineer Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer;Building+the+Future+with+AI" alt="Dynamic Header" />
 </div>
 
 <div align="center" style="margin: 20px 0;">
   <img src="https://img.shields.io/badge/PROFILE%20VIEWS-1K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/EXPERIENCE-1.5%2B%20YEARS-brightgreen?style=for-the-badge&logo=clock&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PROJECTS-7%2B%20DELIVERED-orange?style=for-the-badge&logo=rocket&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EXPERIENCE-1.5+%20YEARS-brightgreen?style=for-the-badge&logo=clock&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PROJECTS-7+%20DELIVERED-orange?style=for-the-badge&logo=rocket&logoColor=white"/>
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
 </div>
 
 ## 🧠 Executive Summary
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=64FFDA&center=true&vCenter=true&width=900&height=60&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing.;The+faster+you+work%2C+the+more+work+you+get+done.;Be+more+than+motivated%2C+be+more+than+driven%2C+become+obsessed." alt="Motivational Quotes" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=64FFDA&center=true&vCenter=true&width=900&height=60&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing.;The+faster+you+work,+the+more+work+you+get+done.;Be+more+than+motivated,+be+more+than+driven,+become+obsessed." alt="Motivational Quotes" />
 </div>
 
 <div align="center">
@@ -22,7 +22,7 @@
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=🤖+Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;🚀+LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;⚡+85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;🧠+Research+to+Production+%7C+Real-world+AI+Solutions;💡+VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
 </div>
 
 I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
@@ -278,7 +278,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together+🚀;Open+to+Collaboration+on+Autonomous+AI+Systems+🤖;Remote+Opportunities+Welcome+🌍" alt="Collaboration Invite" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together;Open+to+Collaboration+on+Autonomous+AI+Systems;Remote+Opportunities+Welcome" alt="Collaboration Invite" />
 </div>
 
 <div align="center">
