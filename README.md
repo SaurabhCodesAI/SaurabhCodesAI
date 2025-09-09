@@ -12,11 +12,11 @@
 ## 🧠 Executive Summary
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=800&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing;The+faster+you+work%2C+the+more+work+you+get+done;Be+more+than+motivated%2C+be+more+than+driven%2C+become+obsessed!" alt="Motivational Quotes" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=64FFDA&center=true&vCenter=true&width=900&height=60&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing.;The+faster+you+work%2C+the+more+work+you+get+done.;Be+more+than+motivated%2C+be+more+than+driven%2C+become+obsessed." alt="Motivational Quotes" />
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+  <img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="500">
 </div>
 
 I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
@@ -28,7 +28,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
     <td width="60%">
       <h3>🎯 What I Build</h3>
       <div align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+        <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="120">
       </div>
       <ul>
         <li><b>Autonomous AI Agents</b> that can reason, research, and take action</li>
@@ -40,7 +40,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
     <td width="40%">
       <h3>💡 My Approach</h3>
       <div align="center">
-        <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="100">
+        <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="120">
       </div>
       <ul>
         <li><b>Systems Thinking</b>: Building integrated solutions</li>
@@ -55,7 +55,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
 ## 🚀 Projects Delivered
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="200">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
 </div>
 
 ### [VertexAutoGPT](https://github.com/SaurabhCodesAI/VertexAutoGPT)
@@ -167,7 +167,7 @@ Production grade Unicode aware character frequency mapping module featuring stre
 ## 💼 Professional Experience
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="200">
+  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d42b-4505-b9d4-338b98001e49.gif" width="300">
 </div>
 
 ### AI Engineering Intern | [Cushion](https://cushion.ai)
@@ -229,7 +229,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🛠️ Technology Stack
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="200">
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="250">
 </div>
 
 <div align="center">
@@ -246,6 +246,10 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 ## 🎓 Credentials & Certifications
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="250">
+</div>
 
 <div align="center">
 <table width="100%">
@@ -269,6 +273,10 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 ## 🔗 Connect & Collaborate
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284094-e50ceae2-de86-4dd0-a8c5-16b3649d6159.gif" width="250">
+</div>
 
 <div align="center">
 <a href="https://www.linkedin.com/in/saurabh-pareekk/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
