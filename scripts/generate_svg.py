@@ -3,253 +3,234 @@ import datetime
 import random
 import math
 
-def generate_pinnacle_elite_header():
+def generate_authentic_elite_header():
     ist_offset = datetime.timedelta(hours=5, minutes=30)
     now = datetime.datetime.now(datetime.timezone.utc) + ist_offset
     timestamp = now.strftime("%B %d, %Y %H:%M:%S IST")
     hour = now.hour
-    day_of_year = now.timetuple().tm_yday
+    minute = now.minute
     
-    # PINNACLE CANVAS - Ultra-wide cinematic format
-    dwg = svgwrite.Drawing('header.svg', profile='full', size=('1400px', '200px'))
+    # INNOVATION: Adaptive canvas that responds to actual time
+    base_width = 1200
+    base_height = 180
     
-    # === DYNAMIC QUANTUM THEMES ===
-    themes = {
-        'dawn': {  # 5-8
-            'bg': ['#667db6', '#0082c8', '#0082c8', '#667db6'],
-            'accent': '#FFE066',
-            'secondary': '#87CEEB',
-            'tertiary': '#F0E68C',
-            'title': '🌅 QUANTUM ARCHITECT',
-            'subtitle': 'Neural Networks • Awakening Systems',
-            'effect': 'rising_sun'
-        },
-        'morning': {  # 8-12
-            'bg': ['#74b9ff', '#0984e3', '#6c5ce7', '#a29bfe'],
-            'accent': '#00CED1',
-            'secondary': '#FFD700',
-            'tertiary': '#00FA9A',
-            'title': '⚡ SYSTEM ARCHITECT',
-            'subtitle': 'AI Infrastructure • Peak Performance',
-            'effect': 'energy_flow'
-        },
-        'afternoon': {  # 12-17
-            'bg': ['#fd79a8', '#fdcb6e', '#e17055', '#d63031'],
-            'accent': '#00D4FF',
-            'secondary': '#FF6B35',
-            'tertiary': '#FFE066',
-            'title': '🚀 INNOVATION CATALYST',
-            'subtitle': 'Scaling Intelligence • Building Tomorrow',
-            'effect': 'innovation_burst'
-        },
-        'evening': {  # 17-21
-            'bg': ['#6c5ce7', '#a29bfe', '#fd79a8', '#fdcb6e'],
-            'accent': '#FF69B4',
-            'secondary': '#9370DB',
-            'tertiary': '#FFB6C1',
-            'title': '🌆 CREATIVE TECHNOLOGIST',
-            'subtitle': 'Artistic AI • Elegant Solutions',
-            'effect': 'creative_flow'
-        },
-        'night': {  # 21-5
-            'bg': ['#2d3436', '#636e72', '#00b894', '#00cec9'],
-            'accent': '#E94057',
-            'secondary': '#0984e3',
-            'tertiary': '#00b894',
-            'title': '🌙 DEEP LEARNING SAGE',
-            'subtitle': 'Neural Architectures • Midnight Innovation',
-            'effect': 'neural_glow'
-        }
-    }
+    # Dynamic width based on content length - INNOVATION #1
+    dynamic_width = base_width + (len(timestamp) * 2)
     
-    # Determine theme with smooth transitions
-    if 5 <= hour < 8:
-        theme = themes['dawn']
-    elif 8 <= hour < 12:
-        theme = themes['morning']
-    elif 12 <= hour < 17:
-        theme = themes['afternoon']
-    elif 17 <= hour < 21:
-        theme = themes['evening']
-    else:
-        theme = themes['night']
+    dwg = svgwrite.Drawing('header.svg', profile='full', size=(f'{dynamic_width}px', f'{base_height}px'))
     
-    # === ULTRA-SOPHISTICATED BACKGROUND ===
-    # Multi-layered gradient with depth
-    bg_gradient = dwg.defs.add(dwg.linearGradient(id="pinnacle_bg", x1="0%", y1="0%", x2="100%", y2="100%"))
-    bg_gradient.add_stop_color(offset="0%", color=theme['bg'][0])
-    bg_gradient.add_stop_color(offset="33%", color=theme['bg'][1])
-    bg_gradient.add_stop_color(offset="66%", color=theme['bg'][2])
-    bg_gradient.add_stop_color(offset="100%", color=theme['bg'][3])
+    # === AUTHENTIC TIME-RESPONSIVE DESIGN ===
+    # INNOVATION #2: Colors that actually shift with real Indian time zones
+    time_factor = (hour * 60 + minute) / 1440  # 0-1 throughout the day
     
-    dwg.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), fill='url(#pinnacle_bg)'))
+    # Authentic Indian tech ecosystem colors - inspired by real Indian innovation
+    primary_hue = (time_factor * 360) % 360  # Full spectrum throughout day
     
-    # === QUANTUM PARTICLE FIELD ===
-    # Dynamic particle system based on time
-    particle_count = 80 + (day_of_year % 40)  # Changes throughout the year
-    
-    for i in range(particle_count):
-        x = random.randint(0, 1400)
-        y = random.randint(0, 200)
-        size = random.uniform(0.5, 4)
+    # Mathematical color generation - no preset themes, pure algorithm
+    def hsv_to_rgb(h, s, v):
+        h = h % 360
+        c = v * s
+        x = c * (1 - abs((h / 60) % 2 - 1))
+        m = v - c
         
-        # Time-based color variation
-        colors = [theme['accent'], theme['secondary'], theme['tertiary']]
-        color = colors[i % 3]
-        opacity = random.uniform(0.2, 0.9)
-        
-        # Particle with quantum glow
-        glow_radius = size * random.uniform(2, 4)
-        glow = dwg.circle(center=(x, y), r=glow_radius, fill=color, opacity=str(opacity * 0.1))
-        particle = dwg.circle(center=(x, y), r=size, fill=color, opacity=str(opacity))
-        
-        dwg.add(glow)
-        dwg.add(particle)
-        
-        # Quantum connections
-        if i % 8 == 0 and i < particle_count - 1:
-            next_x = random.randint(max(0, x-150), min(1400, x+150))
-            next_y = random.randint(max(0, y-50), min(200, y+50))
-            dwg.add(dwg.line(start=(x, y), end=(next_x, next_y), 
-                           stroke=color, stroke_width='0.5', opacity=str(opacity * 0.3)))
-    
-    # === NEURAL ARCHITECTURE VISUALIZATION ===
-    # Left side neural network
-    neural_center_x, neural_center_y = 120, 100
-    layers = [8, 12, 16, 12, 6, 3]  # Neural network architecture
-    
-    for layer_idx, nodes in enumerate(layers):
-        layer_x = 50 + (layer_idx * 40)
-        
-        for node_idx in range(nodes):
-            node_y = neural_center_y - (nodes * 8) + (node_idx * 16)
+        if 0 <= h < 60:
+            r, g, b = c, x, 0
+        elif 60 <= h < 120:
+            r, g, b = x, c, 0
+        elif 120 <= h < 180:
+            r, g, b = 0, c, x
+        elif 180 <= h < 240:
+            r, g, b = 0, x, c
+        elif 240 <= h < 300:
+            r, g, b = x, 0, c
+        else:
+            r, g, b = c, 0, x
             
-            # Neural node
-            node_size = 3 + (16 - nodes) * 0.3  # Bigger nodes for smaller layers
-            node_color = theme['tertiary'] if layer_idx in [0, len(layers)-1] else theme['secondary']
-            
-            dwg.add(dwg.circle(center=(layer_x, node_y), r=node_size, 
-                             fill=node_color, opacity='0.8'))
-            
-            # Connections to next layer
-            if layer_idx < len(layers) - 1:
-                next_layer_nodes = layers[layer_idx + 1]
-                for next_node_idx in range(next_layer_nodes):
-                    next_node_y = neural_center_y - (next_layer_nodes * 8) + (next_node_idx * 16)
-                    next_layer_x = layer_x + 40
-                    
-                    # Connection strength based on position
-                    strength = random.uniform(0.1, 0.4)
-                    dwg.add(dwg.line(start=(layer_x + node_size, node_y), 
-                                   end=(next_layer_x - node_size, next_node_y),
-                                   stroke=theme['accent'], stroke_width='1', 
-                                   opacity=str(strength)))
+        return f"#{int((r + m) * 255):02x}{int((g + m) * 255):02x}{int((b + m) * 255):02x}"
     
-    # === PINNACLE TITLE SECTION ===
-    # Sophisticated glass morphism container
-    title_container = dwg.rect(insert=(350, 30), size=('700px', '140px'), 
-                              fill='#000000', opacity='0.15', rx=25, ry=25)
-    dwg.add(title_container)
+    # Generate authentic color palette
+    primary_color = hsv_to_rgb(primary_hue, 0.8, 0.9)
+    secondary_color = hsv_to_rgb((primary_hue + 120) % 360, 0.7, 0.8)
+    accent_color = hsv_to_rgb((primary_hue + 240) % 360, 0.9, 1.0)
     
-    # Elegant border
-    title_border = dwg.rect(insert=(350, 30), size=('700px', '140px'), 
-                           fill='none', stroke=theme['accent'], stroke_width='2', 
-                           rx=25, ry=25, opacity='0.6')
+    # === INNOVATION #3: REAL-TIME DATA VISUALIZATION ===
+    # Background that reflects actual current time complexity
+    gradient = dwg.defs.add(dwg.radialGradient(id="authentic_bg", cx="50%", cy="50%"))
+    gradient.add_stop_color(offset="0%", color="#0a0a0a")
+    gradient.add_stop_color(offset=f"{time_factor * 50}%", color=primary_color, opacity="0.3")
+    gradient.add_stop_color(offset=f"{time_factor * 80}%", color=secondary_color, opacity="0.2")
+    gradient.add_stop_color(offset="100%", color="#0D1117")
+    
+    dwg.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), fill='url(#authentic_bg)'))
+    
+    # === INNOVATION #4: LIVE ALGORITHMIC PATTERN GENERATION ===
+    # Patterns based on actual timestamp - changes every minute!
+    seed = hour * 60 + minute  # Changes every minute
+    random.seed(seed)  # Deterministic but time-based randomness
+    
+    # Fibonacci-based layout system - MATHEMATICAL BEAUTY
+    fib_sequence = [1, 1, 2, 3, 5, 8, 13, 21, 34]
+    
+    for i, fib_num in enumerate(fib_sequence):
+        if i >= 6:  # Limit complexity
+            break
+            
+        # Position based on golden ratio
+        golden_ratio = 1.618
+        x = (dynamic_width / golden_ratio) * (i / len(fib_sequence))
+        y = (base_height / 2) + math.sin(i * golden_ratio) * 30
+        
+        # Size based on Fibonacci number
+        size = fib_num * 2
+        
+        # Rotating elements based on actual time
+        rotation = (minute * 6 + i * 30) % 360  # Changes with real time
+        
+        # Create geometric elements
+        if i % 3 == 0:
+            # Circles
+            circle = dwg.circle(center=(x, y), r=size, 
+                              fill=primary_color, opacity=str(0.3 + (fib_num * 0.1)))
+            dwg.add(circle)
+        elif i % 3 == 1:
+            # Polygons
+            points = []
+            sides = min(fib_num, 8)  # Max 8 sides
+            for j in range(sides):
+                angle = math.radians((360 / sides) * j + rotation)
+                px = x + size * math.cos(angle)
+                py = y + size * math.sin(angle)
+                points.append((px, py))
+            
+            polygon = dwg.polygon(points=points, fill=secondary_color, 
+                                 opacity=str(0.4), stroke=accent_color, stroke_width="1")
+            dwg.add(polygon)
+        else:
+            # Lines creating web pattern
+            end_x = x + size * 3 * math.cos(math.radians(rotation))
+            end_y = y + size * 3 * math.sin(math.radians(rotation))
+            line = dwg.line(start=(x, y), end=(end_x, end_y), 
+                           stroke=accent_color, stroke_width="2", opacity="0.6")
+            dwg.add(line)
+    
+    # === INNOVATION #5: AUTHENTIC CONTENT AREAS ===
+    # Main title area with mathematical precision
+    title_width = 600
+    title_height = 60
+    title_x = 50
+    title_y = 30
+    
+    # Glass morphism with authentic physics
+    title_bg = dwg.rect(insert=(title_x, title_y), size=(f'{title_width}px', f'{title_height}px'), 
+                       fill='#000000', opacity='0.15', rx=15, ry=15)
+    dwg.add(title_bg)
+    
+    # Border with time-based opacity
+    border_opacity = 0.3 + (time_factor * 0.4)  # Changes throughout day
+    title_border = dwg.rect(insert=(title_x, title_y), size=(f'{title_width}px', f'{title_height}px'), 
+                           fill='none', stroke=primary_color, stroke_width='2', 
+                           rx=15, ry=15, opacity=str(border_opacity))
     dwg.add(title_border)
     
-    # Dynamic title based on theme
-    main_title = dwg.text(theme['title'], insert=(380, 80), 
-                         fill=theme['accent'], font_family='Segoe UI, Arial, sans-serif', 
-                         font_size='32px', font_weight='700', letter_spacing='3px')
+    # AUTHENTIC TITLES - NO FAKE CLAIMS
+    main_title = dwg.text("SAURABH PAREEK", insert=(title_x + 20, title_y + 30), 
+                         fill=primary_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                         font_size='24px', font_weight='600', letter_spacing='2px')
     dwg.add(main_title)
     
-    # Sophisticated subtitle
-    subtitle = dwg.text(theme['subtitle'], insert=(380, 110), 
-                       fill=theme['secondary'], font_family='Segoe UI, Arial, sans-serif', 
-                       font_size='16px', font_weight='300', letter_spacing='2px')
+    # Honest subtitle
+    subtitle = dwg.text("Building AI Solutions • Learning & Growing", insert=(title_x + 20, title_y + 50), 
+                       fill=secondary_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                       font_size='14px', font_weight='400', letter_spacing='1px')
     dwg.add(subtitle)
     
-    # Personal brand
-    brand = dwg.text("SAURABH PAREEK", insert=(380, 140), 
-                    fill=theme['tertiary'], font_family='Segoe UI, Arial, sans-serif', 
-                    font_size='14px', font_weight='500', letter_spacing='4px', opacity='0.8')
-    dwg.add(brand)
+    # === INNOVATION #6: REAL-TIME STATUS SYSTEM ===
+    status_x = 700
+    status_y = 30
+    status_width = 450
+    status_height = 120
     
-    # === ELITE STATUS DASHBOARD ===
-    # Right side status panel
-    status_panel = dwg.rect(insert=(1080, 30), size=('290px', '140px'), 
-                           fill='#000000', opacity='0.2', rx=20, ry=20)
-    dwg.add(status_panel)
+    # Status panel
+    status_bg = dwg.rect(insert=(status_x, status_y), size=(f'{status_width}px', f'{status_height}px'), 
+                        fill='#000000', opacity='0.1', rx=12, ry=12)
+    dwg.add(status_bg)
     
-    # Status indicators
-    status_items = [
-        ("🌐 SYSTEMS", "OPERATIONAL", theme['accent']),
-        ("⚡ AI MODELS", "TRAINING", theme['secondary']),
-        ("🚀 DEPLOYMENT", "ACTIVE", theme['tertiary']),
-        ("💎 PERFORMANCE", "OPTIMAL", theme['accent']),
-        ("🔮 INNOVATION", "CONTINUOUS", theme['secondary'])
-    ]
+    # Real status indicators - honest about current state
+    current_hour_status = {
+        (0, 6): ("🌙", "Late Night", "Deep Focus Mode"),
+        (6, 12): ("🌅", "Morning", "Fresh Start Energy"),
+        (12, 17): ("☀️", "Afternoon", "Peak Productivity"),
+        (17, 21): ("🌆", "Evening", "Creative Time"),
+        (21, 24): ("🌃", "Night", "Wind Down Mode")
+    }
     
-    for i, (label, status, color) in enumerate(status_items):
-        y_pos = 60 + (i * 20)
-        
-        # Status dot
-        dot_x = 1100
-        dwg.add(dwg.circle(center=(dot_x, y_pos), r=3, fill=color, opacity='0.9'))
-        
-        # Status text
-        dwg.add(dwg.text(label, insert=(dot_x + 15, y_pos + 4), 
-                        fill=color, font_family='Segoe UI, Arial, sans-serif', 
-                        font_size='11px', font_weight='600'))
-        
-        dwg.add(dwg.text(status, insert=(dot_x + 120, y_pos + 4), 
-                        fill=color, font_family='Segoe UI, Arial, sans-serif', 
-                        font_size='11px', font_weight='300', opacity='0.8'))
+    # Find current status
+    status_info = ("⚡", "Active", "Continuous Learning")
+    for (start, end), info in current_hour_status.items():
+        if start <= hour < end:
+            status_info = info
+            break
     
-    # Timestamp with elegant styling
-    time_bg = dwg.rect(insert=(1090, 155), size=('270px', '25px'), 
-                      fill=theme['accent'], opacity='0.1', rx=12, ry=12)
-    dwg.add(time_bg)
+    emoji, period, mood = status_info
     
-    timestamp_text = dwg.text(f"Last Updated: {timestamp}", insert=(1100, 170), 
-                             fill=theme['accent'], font_family='Segoe UI, Arial, sans-serif', 
-                             font_size='10px', font_weight='400', opacity='0.9')
-    dwg.add(timestamp_text)
+    # Display real-time status
+    status_header = dwg.text(f"{emoji} Currently {period}", insert=(status_x + 20, status_y + 30), 
+                           fill=accent_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                           font_size='16px', font_weight='600')
+    dwg.add(status_header)
     
-    # === QUANTUM FIELD EFFECTS ===
-    # Dynamic geometric patterns
-    for i in range(5):
-        center_x = 200 + (i * 200)
-        center_y = 100
-        
-        # Rotating hexagon
-        rotation = (day_of_year * 2 + i * 60) % 360
-        hexagon_points = []
-        
-        for j in range(6):
-            angle = math.radians(j * 60 + rotation)
-            x = center_x + 30 * math.cos(angle)
-            y = center_y + 30 * math.sin(angle)
-            hexagon_points.append((x, y))
-        
-        dwg.add(dwg.polygon(points=hexagon_points, fill='none', 
-                           stroke=theme['tertiary'], stroke_width='1', opacity='0.3'))
+    status_mood = dwg.text(mood, insert=(status_x + 20, status_y + 50), 
+                          fill=secondary_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                          font_size='12px', font_weight='400')
+    dwg.add(status_mood)
     
-    # === PINNACLE BORDER SYSTEM ===
-    # Outer elite border
-    outer_border = dwg.rect(insert=(10, 10), size=('1380px', '180px'), 
-                           fill='none', stroke=theme['accent'], stroke_width='3', 
-                           rx=20, ry=20, opacity='0.8')
+    # Authentic timestamp
+    time_display = dwg.text(f"🕐 {timestamp}", insert=(status_x + 20, status_y + 75), 
+                           fill=primary_color, font_family='SF Mono, Monaco, monospace', 
+                           font_size='11px', font_weight='400', opacity='0.8')
+    dwg.add(time_display)
+    
+    # Real learning status
+    learning_text = dwg.text("📚 Always Learning • 🚀 Always Building", 
+                            insert=(status_x + 20, status_y + 95), 
+                            fill=accent_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                            font_size='10px', font_weight='500', opacity='0.9')
+    dwg.add(learning_text)
+    
+    # === INNOVATION #7: DYNAMIC PROGRESS INDICATORS ===
+    # Progress bars that reflect real journey (honest metrics)
+    progress_y = 130
+    
+    # Learning journey progress (realistic timeline)
+    learning_progress = min(((now.year - 2022) * 365 + now.timetuple().tm_yday) / (5 * 365), 1.0)  # 5 year journey
+    
+    # Progress bar background
+    progress_bg = dwg.rect(insert=(50, progress_y), size=('300px', '6px'), 
+                          fill='#333333', rx=3, ry=3)
+    dwg.add(progress_bg)
+    
+    # Progress bar fill
+    progress_width = 300 * learning_progress
+    progress_fill = dwg.rect(insert=(50, progress_y), size=(f'{progress_width}px', '6px'), 
+                            fill=primary_color, rx=3, ry=3)
+    dwg.add(progress_fill)
+    
+    # Progress label
+    progress_label = dwg.text(f"Journey Progress: {learning_progress:.1%}", 
+                             insert=(50, progress_y + 20), 
+                             fill=secondary_color, font_family='SF Pro Display, system-ui, sans-serif', 
+                             font_size='10px', font_weight='400')
+    dwg.add(progress_label)
+    
+    # === INNOVATION #8: ELEGANT MINIMALIST BORDER ===
+    # Single elegant border - no overdoing it
+    outer_border = dwg.rect(insert=(10, 10), size=(f'{dynamic_width - 20}px', f'{base_height - 20}px'), 
+                           fill='none', stroke=primary_color, stroke_width='1', 
+                           rx=12, ry=12, opacity=str(border_opacity))
     dwg.add(outer_border)
     
-    # Inner sophisticated border
-    inner_border = dwg.rect(insert=(20, 20), size=('1360px', '160px'), 
-                           fill='none', stroke=theme['secondary'], stroke_width='1', 
-                           rx=15, ry=15, opacity='0.4')
-    dwg.add(inner_border)
-    
     dwg.save()
-    print(f"🌟 PINNACLE ELITE {theme['title']} header generated! Ultra-sophisticated level achieved! 🚀")
+    print(f"🌟 AUTHENTIC INNOVATIVE header generated! Current status: {period} - {mood} 🚀")
 
 if __name__ == "__main__":
-    generate_pinnacle_elite_header()
+    generate_authentic_elite_header()
