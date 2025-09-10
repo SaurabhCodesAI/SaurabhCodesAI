@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
 </div>
 
-## 🧠 Executive Summary
+##  Executive Summary
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=64FFDA&center=true&vCenter=true&width=900&height=60&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing.;The+faster+you+work,+the+more+work+you+get+done.;Be+more+than+motivated,+be+more+than+driven,+become+obsessed." alt="Motivational Quotes" />
@@ -56,7 +56,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
   </tr>
 </table>
 
-## 🚀 Projects Delivered
+##  Projects Delivered
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
