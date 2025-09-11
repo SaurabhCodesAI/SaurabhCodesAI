@@ -1,39 +1,40 @@
 name: Update Generative Header
 
 on:
-  # This makes the job run automatically on a schedule (every 6 hours)
   schedule:
     - cron: '0 */6 * * *'
   
-  # This also adds a manual "Run" button on the GitHub Actions page for testing
   workflow_dispatch:
 
 jobs:
   update-svg:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Download the latest version of the repository code
-      - uses: actions/checkout@v4
+      # Step 1: Checkout the repository using your PAT
+      # The PAT is required to push commits with your personal user account.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTION_PAT }} # Make sure this secret exists in your repository settings
 
-      # Step 2: Set up the Python programming language environment
+      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # Step 3: Install the 'svgwrite' tool that the Python script needs
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: pip install svgwrite
 
       # Step 4: Run the Python script to generate the new SVG image
       - name: Generate SVG
-        run: python scripts/generate_svg.py
+        run: python Scripts/generate_svg.py
 
-      # Step 5: Commit the newly generated header.svg file back to the repository
+      # Step 5: Commit and push as SaurabhCodesAI
       - name: Commit and push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "SaurabhCodesAI"
+          git config user.email "saurabhpareek228@gmail.com"
           git add header.svg
-          # This command only commits if the file has actually changed
           git diff --quiet --exit-code --cached || (git commit -m "BOT: Update generative header" && git push)
