@@ -69,19 +69,19 @@ def create_header_svg():
     
     # Shadow effect for title
     title_shadow = dwg.text("SAURABH PAREEK", insert=(80, 85), 
-                           style="font-family: 'JetBrains Mono', monospace; font-size: 48px; font-weight: 900; fill: #000000; opacity: 0.3;")
+                            style="font-family: 'JetBrains Mono', monospace; font-size: 48px; font-weight: 900; fill: #000000; opacity: 0.3;")
     title_shadow.add(dwg.animate("opacity", values="0.1;0.4;0.1", dur="4s", repeatCount="indefinite"))
     title_group.add(title_shadow)
     
     # Main title with glow effect
     main_title = dwg.text("SAURABH PAREEK", insert=(78, 83), 
-                         style=f"font-family: 'JetBrains Mono', monospace; font-size: 48px; font-weight: 900; fill: {theme_color}; filter: drop-shadow(0 0 8px {theme_color});")
+                          style=f"font-family: 'JetBrains Mono', monospace; font-size: 48px; font-weight: 900; fill: {theme_color}; filter: drop-shadow(0 0 8px {theme_color});")
     main_title.add(dwg.animate("fill", values=f"{theme_color};#FFFFFF;{theme_color}", dur="5s", repeatCount="indefinite"))
     title_group.add(main_title)
     
     # Professional subtitle
     subtitle = dwg.text("Autonomous AI Agent Engineer • Vector Memory Systems", insert=(80, 115),
-                       style="font-family: 'Source Code Pro', monospace; font-size: 20px; fill: #E8F4FD; font-weight: 600;")
+                        style="font-family: 'Source Code Pro', monospace; font-size: 20px; fill: #E8F4FD; font-weight: 600;")
     subtitle.add(dwg.animate("opacity", values="0.7;1;0.7", dur="3s", repeatCount="indefinite"))
     title_group.add(subtitle)
     
@@ -92,13 +92,13 @@ def create_header_svg():
     
     # Status panel background
     status_bg = dwg.rect(insert=(720, 35), size=(450, 220), rx=15, ry=15,
-                        fill="#131526", stroke=theme_color, stroke_width=2, opacity=0.95)
+                         fill="#131526", stroke=theme_color, stroke_width=2, opacity=0.95)
     status_bg.add(dwg.animate("stroke", values=f"{theme_color};#FFFFFF;{theme_color}", dur="6s", repeatCount="indefinite"))
     status_group.add(status_bg)
     
     # Dashboard header
     dashboard_title = dwg.text("🤖 AI Engineer Dashboard", insert=(740, 65),
-                             style=f"font-family: 'Fira Code', monospace; font-size: 18px; fill: {theme_color}; font-weight: 700;")
+                               style=f"font-family: 'Fira Code', monospace; font-size: 18px; fill: {theme_color}; font-weight: 700;")
     dashboard_title.add(dwg.animate("fill", values=f"{theme_color};#FFFFFF;{theme_color}", dur="4s", repeatCount="indefinite"))
     status_group.add(dashboard_title)
     
@@ -114,12 +114,12 @@ def create_header_svg():
     ]
     
     for i, item in enumerate(status_items):
-        y_pos = 90 + (i * 20)
+        y_pos = 100 + (i * 22) # Adjusted spacing
         status_text = dwg.text(item, insert=(740, y_pos),
-                              style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;")
+                               style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;")
         # Progressive animation delay
         status_text.add(dwg.animate("opacity", values="0.6;1;0.6", dur="4s", 
-                                   begin=f"{i*0.3}s", repeatCount="indefinite"))
+                                    begin=f"{i*0.3}s", repeatCount="indefinite"))
         status_group.add(status_text)
     
     dwg.add(status_group)
@@ -134,8 +134,8 @@ def create_header_svg():
     footer_group.add(footer_bg)
     
     footer_text = dwg.text("🔬 VertexAutoGPT • Autonomous Research Agents • Vector Memory Systems • Dynamic Tool Selection • Cost-Efficient AI Infrastructure", 
-                          insert=(width//2, height-18),
-                          style="font-family: 'Inter', sans-serif; font-size: 14px; fill: #94A3B8; text-anchor: middle; font-weight: 600;")
+                           insert=(width//2, height-18),
+                           style="font-family: 'Inter', sans-serif; font-size: 14px; fill: #94A3B8; text-anchor: middle; font-weight: 600;")
     footer_text.add(dwg.animate("fill", values="#94A3B8;#E8F4FD;#94A3B8", dur="7s", repeatCount="indefinite"))
     footer_group.add(footer_text)
     
@@ -173,15 +173,15 @@ def create_neural_network(dwg, width, height):
                 if dist < 150:
                     # Data flow lines with gradient
                     line = dwg.line(start=(x1, y1), end=(x2, y2),
-                                  stroke="url(#neuralGradient)", stroke_width=1, opacity=0.6)
+                                    stroke="url(#neuralGradient)", stroke_width=1, opacity=0.6)
                     
                     # Animate line opacity for data flow effect
                     line.add(dwg.animate("opacity", values="0.2;0.6;0.2", 
-                                        dur=f"{random.uniform(3, 7)}s", repeatCount="indefinite"))
+                                         dur=f"{random.uniform(3, 7)}s", repeatCount="indefinite"))
                     
                     # Add pulsing animation
                     line.add(dwg.animate("stroke-width", values="1;1.5;1", 
-                                        dur=f"{random.uniform(2, 4)}s", repeatCount="indefinite"))
+                                         dur=f"{random.uniform(2, 4)}s", repeatCount="indefinite"))
                     
                     dwg.add(line)
                     connected += 1
@@ -193,10 +193,10 @@ def create_neural_network(dwg, width, height):
         
         # Add subtle pulsing animation
         node.add(dwg.animate("r", values=f"{size-1};{size+2};{size-1}", 
-                            dur=f"{random.uniform(2, 5)}s", repeatCount="indefinite"))
+                             dur=f"{random.uniform(2, 5)}s", repeatCount="indefinite"))
         
         node.add(dwg.animate("opacity", values="0.6;1;0.6", 
-                            dur=f"{random.uniform(3, 6)}s", repeatCount="indefinite"))
+                             dur=f"{random.uniform(3, 6)}s", repeatCount="indefinite"))
         
         dwg.add(node)
 
@@ -217,14 +217,15 @@ def create_data_particles(dwg, width, height):
         
         # Flow animation
         particle.add(dwg.animateTransform("transform", type="translate",
-                                         values=f"0,0; {move_x},{move_y}; 0,0",
-                                         dur=f"{random.uniform(5, 12)}s", 
-                                         repeatCount="indefinite"))
+                                          # FIXED: Changed commas to spaces for correct SVG coordinate syntax
+                                          values=f"0 0; {move_x} {move_y}; 0 0",
+                                          dur=f"{random.uniform(5, 12)}s", 
+                                          repeatCount="indefinite"))
         
         # Opacity pulsing
         particle.add(dwg.animate("opacity", values="0.3;1;0.3", 
-                                dur=f"{random.uniform(2, 5)}s", 
-                                repeatCount="indefinite"))
+                                 dur=f"{random.uniform(2, 5)}s", 
+                                 repeatCount="indefinite"))
         
         dwg.add(particle)
 
@@ -248,7 +249,7 @@ def create_analytics_svg():
     
     # Add title
     title = dwg.text("AI Engineering Metrics", insert=(width//2, 40), 
-                    style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 600; fill: #E8F4FD; text-anchor: middle;")
+                     style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 600; fill: #E8F4FD; text-anchor: middle;")
     dwg.add(title)
     
     # Fake metrics data - make this look like GitHub contribution data
@@ -279,9 +280,9 @@ def create_analytics_svg():
         
         # Draw bar
         bar = dwg.rect(insert=(bar_x, chart_y + chart_height - bar_height), 
-                      size=(bar_width, bar_height), 
-                      fill=f"url(#{bar_gradient_id})", 
-                      rx=5, ry=5)
+                       size=(bar_width, bar_height), 
+                       fill=f"url(#{bar_gradient_id})", 
+                       rx=5, ry=5)
         
         # Add animation
         bar.add(dwg.animate("height", values="0;"+str(bar_height), dur="1s", begin=f"{i*0.1}s", fill="freeze"))
@@ -291,24 +292,24 @@ def create_analytics_svg():
         
         # Add project name
         project_text = dwg.text(project, insert=(bar_x + bar_width//2, chart_y + chart_height + 25),
-                               style="font-family: 'Inter', sans-serif; font-size: 12px; fill: #94A3B8; text-anchor: middle; font-weight: 500;")
+                                style="font-family: 'Inter', sans-serif; font-size: 12px; fill: #94A3B8; text-anchor: middle; font-weight: 500;")
         project_text.add(dwg.animate("opacity", values="0;1", dur="0.5s", begin=f"{i*0.1 + 0.5}s", fill="freeze"))
         dwg.add(project_text)
         
         # Add value text
         value_text = dwg.text(str(value), insert=(bar_x + bar_width//2, chart_y + chart_height - bar_height - 10),
-                             style="font-family: 'Inter', sans-serif; font-size: 14px; fill: #E8F4FD; text-anchor: middle; font-weight: 600;")
+                              style="font-family: 'Inter', sans-serif; font-size: 14px; fill: #E8F4FD; text-anchor: middle; font-weight: 600;")
         value_text.add(dwg.animate("opacity", values="0;1", dur="0.5s", begin=f"{i*0.1 + 0.5}s", fill="freeze"))
         dwg.add(value_text)
     
     # Add horizontal line
     h_line = dwg.line(start=(chart_x - 10, chart_y + chart_height), end=(chart_x + chart_width + 10, chart_y + chart_height),
-                     stroke="#2D333B", stroke_width=2)
+                      stroke="#2D333B", stroke_width=2)
     dwg.add(h_line)
     
     # Add vertical line
     v_line = dwg.line(start=(chart_x, chart_y - 10), end=(chart_x, chart_y + chart_height + 10),
-                     stroke="#2D333B", stroke_width=2)
+                      stroke="#2D333B", stroke_width=2)
     dwg.add(v_line)
     
     return dwg
@@ -339,14 +340,17 @@ def main():
     # Create the header SVG
     print("🔧 Creating header SVG...")
     header_svg = create_header_svg()
-    header_svg.saveas('header.svg')
-    print("✅ Header SVG created: header.svg")
+    # Use os.path.join for better path handling, especially in actions
+    header_path = os.path.join('header.svg')
+    header_svg.saveas(header_path)
+    print(f"✅ Header SVG created: {header_path}")
     
     # Create analytics SVG
     print("📊 Creating analytics SVG...")
     analytics_svg = create_analytics_svg()
-    analytics_svg.saveas('analytics.svg')
-    print("✅ Analytics SVG created: analytics.svg")
+    analytics_path = os.path.join('analytics.svg')
+    analytics_svg.saveas(analytics_path)
+    print(f"✅ Analytics SVG created: {analytics_path}")
     
     print("🚀 All SVGs generated successfully!")
 
