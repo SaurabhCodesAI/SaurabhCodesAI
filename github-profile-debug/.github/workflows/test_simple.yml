@@ -1,36 +1,11 @@
-name: Simple Test
+name: Emergency Test
 
 on:
   push:
-    branches: [ main ]
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Test basic commands
-      run: |
-        echo "Current directory: $(pwd)"
-        echo "Python version: $(python3 --version)"
-        echo "Repository contents:"
-        ls -la
-        
-    - name: Test Python script existence
-      run: |
-        if [ -f "scripts/generate_svg.py" ]; then
-          echo "✅ Python script found"
-          echo "File size: $(wc -c < scripts/generate_svg.py) bytes"
-          head -5 scripts/generate_svg.py
-        else
-          echo "❌ Python script not found"
-          find . -name "*.py" -type f
-        fi
+    - run: echo "Hello World"
