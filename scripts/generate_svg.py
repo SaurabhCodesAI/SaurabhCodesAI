@@ -3,6 +3,7 @@ import svgwrite
 from datetime import datetime, timezone, timedelta
 import random
 import math
+import os
 
 def get_ist_time():
     """Get current time in IST"""
@@ -70,9 +71,13 @@ def create_header_svg():
     status_group.add(dashboard_title)
     
     status_items = [
-        f"⚡ {status}", f"🧠 Projects Delivered: 7+", f"🔍 Experience: 1.5+ Years",
-        f"☁️  Availability: Ready for Opportunities", f"🐳 Tech Stack: Python, LangChain, FAISS",
-        f"📊 Specialization: Autonomous AI Agents", f"⏰ {current_time.strftime('%H:%M IST')} • Activity: High"
+        f"⚡ {status}", 
+        f"🧠 Projects Delivered: 7+", 
+        f"🔍 Experience: 1.5+ Years",
+        f"☁️  Availability: Ready for Opportunities", 
+        f"🐳 Tech Stack: Python, LangChain, FAISS",
+        f"📊 Specialization: Autonomous AI Agents", 
+        f"⏰ {current_time.strftime('%H:%M IST')} • Activity: High"
     ]
     
     for i, item in enumerate(status_items):
@@ -85,6 +90,9 @@ def create_header_svg():
 
 def create_neural_network(dwg, width, height):
     """Create animated neural network visualization"""
+    # Set random seed for reproducible results in CI
+    random.seed(42)
+    
     nodes = [(random.uniform(50, width-100), random.uniform(50, height-80), random.uniform(3, 6)) for _ in range(25)]
     
     for i, (x1, y1, _) in enumerate(nodes):
@@ -110,14 +118,15 @@ def create_data_particles(dwg, width, height):
         move_x = random.randint(50, 150) * random.choice([1, -1])
         move_y = random.randint(-30, 30)
         
-        # ✅ Fixed animateTransform usage
-        particle.add(dwg.animateTransform(
-            transform="translate",
-            from_="0 0",
-            to=f"{move_x} {move_y}",
+        # Fixed animateTransform for GitHub Actions compatibility
+        transform_anim = dwg.animateTransform(
+            attributeName="transform",
+            type_="translate",
+            values=f"0,0;{move_x},{move_y};0,0",
             dur=f"{random.uniform(5, 12)}s",
             repeatCount="indefinite"
-        ))
+        )
+        particle.add(transform_anim)
         
         particle.add(dwg.animate(
             attributeName="opacity",
@@ -128,13 +137,72 @@ def create_data_particles(dwg, width, height):
         
         dwg.add(particle)
 
+def create_analytics_svg():
+    """Create analytics dashboard SVG"""
+    width, height = 800, 200
+    dwg = svgwrite.Drawing('analytics.svg', size=(width, height))
+    
+    # Background
+    bg = dwg.rect(insert=(0, 0), size=(width, height), fill="#0D1117", stroke="#21262D", stroke_width=1)
+    dwg.add(bg)
+    
+    # Title
+    title = dwg.text("AI Engineering Metrics", insert=(20, 40), 
+                    style="font-family: 'Fira Code', monospace; font-size: 24px; fill: #58A6FF; font-weight: 700;")
+    dwg.add(title)
+    
+    # Metrics
+    metrics = [
+        ("Vector Memory Ops", "2.3M+", "#FF6B6B"),
+        ("Tool Selection Accuracy", "92%", "#4ECDC4"),
+        ("Cost Optimization", "85%", "#45B7D1"),
+        ("Active Projects", "7+", "#96CEB4")
+    ]
+    
+    for i, (label, value, color) in enumerate(metrics):
+        x_pos = 50 + (i * 180)
+        
+        # Metric box
+        box = dwg.rect(insert=(x_pos-30, 70), size=(160, 80), rx=8, ry=8, 
+                      fill="#161B22", stroke=color, stroke_width=2, opacity=0.9)
+        dwg.add(box)
+        
+        # Value
+        val_text = dwg.text(value, insert=(x_pos, 110), 
+                           style=f"font-family: 'JetBrains Mono', monospace; font-size: 20px; fill: {color}; font-weight: 900; text-anchor: middle;")
+        dwg.add(val_text)
+        
+        # Label
+        label_text = dwg.text(label, insert=(x_pos, 130), 
+                             style="font-family: 'Fira Code', monospace; font-size: 12px; fill: #C9D1D9; text-anchor: middle;")
+        dwg.add(label_text)
+    
+    return dwg
+
 def main():
-    """Main function to generate the SVG"""
+    """Main function to generate the SVGs"""
     print("🎨 Generating GitHub Profile Visuals...")
-    header_svg = create_header_svg()
-    header_svg.saveas('header.svg', pretty=True)
-    print("✅ Header SVG created: header.svg")
-    print("🚀 SVG generation successful!")
+    
+    # Ensure we're in the right directory
+    if not os.path.exists('scripts') and os.path.exists('Scripts'):
+        os.chdir('..')  # Go back to root if we're in Scripts directory
+    
+    try:
+        # Generate header SVG
+        header_svg = create_header_svg()
+        header_svg.saveas('header.svg', pretty=True)
+        print("✅ Header SVG created: header.svg")
+        
+        # Generate analytics SVG
+        analytics_svg = create_analytics_svg()
+        analytics_svg.saveas('analytics.svg', pretty=True)
+        print("✅ Analytics SVG created: analytics.svg")
+        
+        print("🚀 SVG generation successful!")
+        
+    except Exception as e:
+        print(f"❌ Error generating SVGs: {str(e)}")
+        raise
 
 if __name__ == "__main__":
     main()
