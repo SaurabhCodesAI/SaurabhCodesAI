@@ -28,13 +28,20 @@ if sys.platform.startswith('win'):
         # Handle cases where stdout/stderr don't have buffer attribute
         pass
 
+# Setup logging with fallback for file handler
+log_handlers = [logging.StreamHandler(sys.stdout)]
+
+# Try to add file handler, but continue if it fails (GitHub Actions might have permission issues)
+try:
+    log_handlers.append(logging.FileHandler('svg_generation.log', mode='a', encoding='utf-8'))
+except (PermissionError, OSError) as e:
+    # Log to stdout only if file logging fails
+    print(f"Warning: Could not create log file: {e}")
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler('svg_generation.log', mode='a', encoding='utf-8')
-    ]
+    handlers=log_handlers
 )
 logger = logging.getLogger(__name__)
 
