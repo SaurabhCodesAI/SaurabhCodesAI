@@ -1,0 +1,40 @@
+name: Minimal SVG Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        echo "Installing dependencies..."
+        python3 -m pip install --upgrade pip
+        pip install svgwrite pillow
+        echo "Dependencies installed successfully"
+        
+    - name: Simple SVG Generation Test
+      run: |
+        echo "Creating minimal SVG test..."
+        python3 -c "import svgwrite; print('✅ svgwrite works'); dwg = svgwrite.Drawing('test.svg', size=('400px', '200px')); dwg.add(dwg.rect(insert=(10, 10), size=('200px', '100px'), fill='blue')); dwg.save(); print('✅ Test SVG created')"
+        
+    - name: Check results
+      run: |
+        echo "Final check:"
+        ls -la *.svg 2>/dev/null || echo "No SVG files found"
