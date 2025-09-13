@@ -28,26 +28,26 @@ jobs:
         
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip setuptools wheel
+        python3 -m pip install --upgrade pip setuptools wheel
         pip install svgwrite pillow --no-cache-dir
         
     - name: Verify Python environment
       run: |
-        python --version
+        python3 --version
         pip list
         
     - name: Generate header graphics
       run: |
         cd ${{ github.workspace }}
         echo "Python version and path:"
-        python --version
-        which python
+        python3 --version
+        which python3
         
         echo "Script file check:"
         ls -la scripts/generate_svg.py
         
         echo "Running Python script:"
-        python scripts/generate_svg.py
+        python3 scripts/generate_svg.py
         ls -la *.svg
         
     - name: Configure Git

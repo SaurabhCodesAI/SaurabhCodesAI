@@ -669,6 +669,12 @@ def main() -> int:
         logger.info(f"Python version: {sys.version}")
         logger.info(f"Working directory: {os.getcwd()}")
         
+        # GitHub Actions specific debugging
+        if os.getenv('GITHUB_ACTIONS'):
+            logger.info("🔧 Running in GitHub Actions environment")
+            logger.info(f"GITHUB_WORKSPACE: {os.getenv('GITHUB_WORKSPACE', 'not set')}")
+            logger.info(f"RUNNER_OS: {os.getenv('RUNNER_OS', 'not set')}")
+        
         # Setup environment
         if not setup_environment():
             logger.error("Environment setup failed")

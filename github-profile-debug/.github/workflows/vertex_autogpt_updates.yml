@@ -34,13 +34,13 @@ jobs:
     - name: Install dependencies with error handling
       run: |
         set -e
-        python -m pip install --upgrade pip setuptools wheel
+        python3 -m pip install --upgrade pip setuptools wheel
         pip install --no-cache-dir svgwrite pillow
         echo "Dependencies installed successfully"
         
     - name: Verify environment
       run: |
-        python --version
+        python3 --version
         pip list | grep -E "(svgwrite|pillow)"
         ls -la scripts/
         
@@ -53,14 +53,14 @@ jobs:
         ls -la *.svg 2>/dev/null || echo "No existing SVG files"
         
         echo "Python version and path:"
-        python --version
-        which python
+        python3 --version
+        which python3
         
         echo "Script file check:"
         ls -la scripts/generate_svg.py
         
         echo "Running Python script:"
-        python scripts/generate_svg.py
+        python3 scripts/generate_svg.py
         
         echo "Files after generation:"
         ls -la *.svg
