@@ -1,0 +1,75 @@
+name: Emergency Diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Complete Environment Dump
+      run: |
+        echo "===== SYSTEM INFO ====="
+        whoami
+        pwd
+        uname -a
+        echo ""
+        
+        echo "===== ENVIRONMENT VARIABLES ====="
+        env | grep -E "(GITHUB|HOME|USER)" | sort
+        echo ""
+        
+        echo "===== DIRECTORY STRUCTURE ====="
+        ls -la
+        echo ""
+        
+        echo "===== SCRIPTS DIRECTORY ====="
+        if [ -d "scripts" ]; then
+          ls -la scripts/
+          echo ""
+          echo "Script content first 20 lines:"
+          head -20 scripts/generate_svg.py || echo "Cannot read script"
+        else
+          echo "❌ scripts/ directory not found!"
+          echo "Available directories:"
+          find . -type d -name "*script*" 2>/dev/null || echo "No script directories found"
+        fi
+        echo ""
+        
+        echo "===== WORKFLOWS DIRECTORY ====="
+        if [ -d ".github/workflows" ]; then
+          ls -la .github/workflows/
+        else
+          echo "❌ .github/workflows not found!"
+        fi
+        echo ""
+        
+        echo "===== PYTHON CHECK ====="
+        python3 --version || echo "python3 not found"
+        which python3 || echo "python3 path not found"
+        echo ""
+        
+        echo "===== CURRENT WORKING DIRECTORY CONTENTS ====="
+        find . -maxdepth 3 -type f -name "*.py" -o -name "*.yml" -o -name "*.svg" | head -20
+        
+    - name: Test Python Direct
+      run: |
+        echo "===== PYTHON EXECUTION TEST ====="
+        if [ -f "scripts/generate_svg.py" ]; then
+          echo "Script exists, testing execution..."
+          python3 -c "print('Python3 works')"
+          echo "Trying to run script..."
+          timeout 30 python3 scripts/generate_svg.py || echo "Script execution failed or timed out"
+        else
+          echo "❌ Script not found at scripts/generate_svg.py"
+        fi
