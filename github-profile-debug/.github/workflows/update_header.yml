@@ -38,16 +38,23 @@ jobs:
         
     - name: Generate header graphics
       run: |
-        cd ${{ github.workspace }}
+        cd "$GITHUB_WORKSPACE"
+        echo "Current directory: $(pwd)"
+        echo "Directory contents:"
+        ls -la
         echo "Python version and path:"
         python3 --version
         which python3
         
         echo "Script file check:"
         ls -la scripts/generate_svg.py
+        file scripts/generate_svg.py
         
-        echo "Running Python script:"
-        python3 scripts/generate_svg.py
+        echo "Making script executable (if needed):"
+        chmod +x scripts/generate_svg.py || echo "chmod not needed"
+        
+        echo "Running Python script with full path:"
+        python3 "$GITHUB_WORKSPACE/scripts/generate_svg.py"
         ls -la *.svg
         
     - name: Configure Git

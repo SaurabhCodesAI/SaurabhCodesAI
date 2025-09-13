@@ -47,8 +47,10 @@ jobs:
     - name: Generate VertexAutoGPT graphics
       run: |
         set -e
-        cd "${{ github.workspace }}"
+        cd "$GITHUB_WORKSPACE"
         echo "Current directory: $(pwd)"
+        echo "Directory contents:"
+        ls -la
         echo "Files before generation:"
         ls -la *.svg 2>/dev/null || echo "No existing SVG files"
         
@@ -58,9 +60,13 @@ jobs:
         
         echo "Script file check:"
         ls -la scripts/generate_svg.py
+        file scripts/generate_svg.py
         
-        echo "Running Python script:"
-        python3 scripts/generate_svg.py
+        echo "Making script executable (if needed):"
+        chmod +x scripts/generate_svg.py || echo "chmod not needed"
+        
+        echo "Running Python script with full path:"
+        python3 "$GITHUB_WORKSPACE/scripts/generate_svg.py"
         
         echo "Files after generation:"
         ls -la *.svg
