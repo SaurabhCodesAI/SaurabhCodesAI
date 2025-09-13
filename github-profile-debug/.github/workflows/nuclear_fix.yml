@@ -1,0 +1,47 @@
+name: 🔥 NUCLEAR OPTION - Minimal Working SVG
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 */8 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  nuclear-svg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install svgwrite
+      run: pip install svgwrite
+      
+    - name: Generate Nuclear SVGs
+      run: python3 nuclear_svg.py
+        
+    - name: Verify SVGs
+      run: |
+        ls -la *.svg
+        echo "Header size: $(wc -c < header.svg) bytes"
+        echo "Analytics size: $(wc -c < analytics.svg) bytes"
+        
+    - name: Commit SVGs
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Nuclear SVG Bot"
+        git add header.svg analytics.svg || true
+        git commit -m "🔥 Nuclear SVG Update - $(date)" || true
+        git push || true
