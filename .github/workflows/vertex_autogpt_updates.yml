@@ -28,7 +28,7 @@ jobs:
         
     - name: Generate VertexAutoGPT header
       run: |
-        python scripts/generate_vertex_header.py
+        python scripts/generate_svg.py
         
     - name: Commit and push updates
       run: |
