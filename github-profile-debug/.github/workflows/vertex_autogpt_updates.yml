@@ -1,0 +1,54 @@
+name: VertexAutoGPT Profile Updates
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-vertex-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: false
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install svgwrite pillow
+        
+    - name: Generate VertexAutoGPT header
+      run: |
+        python scripts/generate_svg.py
+        
+    - name: Commit and push updates
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "VertexAutoGPT Agent"
+        git add header.svg analytics.svg
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 VertexAutoGPT Status Update - $(date '+%Y-%m-%d %H:%M UTC')
+
+        🧠 Vector Memory: Optimized
+        🔧 Tool Router: Active
+        ☁️  GCP Infrastructure: Running
+        ⚡ Agent Development: In Progress"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

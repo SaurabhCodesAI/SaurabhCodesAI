@@ -1,0 +1,53 @@
+name: Update Header Graphics
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-header:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: false
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install svgwrite pillow
+        
+    - name: Generate header graphics
+      run: |
+        python scripts/generate_svg.py
+        
+    - name: Commit and push graphics
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "AI Graphics Bot"
+        git add header.svg analytics.svg
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🎨 Update AI profile graphics - $(date '+%Y-%m-%d %H:%M UTC')
+
+        ✨ Header visualization updated
+        📊 Analytics dashboard refreshed
+        🤖 Autonomous generation active"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
