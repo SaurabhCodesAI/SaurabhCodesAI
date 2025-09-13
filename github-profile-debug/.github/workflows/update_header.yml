@@ -39,6 +39,14 @@ jobs:
     - name: Generate header graphics
       run: |
         cd ${{ github.workspace }}
+        echo "Python version and path:"
+        python --version
+        which python
+        
+        echo "Script file check:"
+        ls -la scripts/generate_svg.py
+        
+        echo "Running Python script:"
         python scripts/generate_svg.py
         ls -la *.svg
         

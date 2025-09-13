@@ -52,6 +52,14 @@ jobs:
         echo "Files before generation:"
         ls -la *.svg 2>/dev/null || echo "No existing SVG files"
         
+        echo "Python version and path:"
+        python --version
+        which python
+        
+        echo "Script file check:"
+        ls -la scripts/generate_svg.py
+        
+        echo "Running Python script:"
         python scripts/generate_svg.py
         
         echo "Files after generation:"
@@ -60,9 +68,10 @@ jobs:
         # Validate SVG files
         for svg in header.svg analytics.svg; do
           if [ -f "$svg" ]; then
-            size=$(stat -f%z "$svg" 2>/dev/null || stat -c%s "$svg" 2>/dev/null || echo "0")
+            size=$(stat -c%s "$svg" 2>/dev/null || wc -c < "$svg" 2>/dev/null || echo "0")
             if [ "$size" -gt 0 ]; then
               echo "✅ $svg generated successfully (${size} bytes)"
+              head -5 "$svg"  # Show first few lines of SVG for validation
             else
               echo "❌ $svg is empty"
               exit 1

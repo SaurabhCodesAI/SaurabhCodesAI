@@ -15,14 +15,18 @@ from pathlib import Path
 from typing import Tuple, Optional
 from datetime import datetime, timezone, timedelta
 
-# Configure logging for production monitoring (Windows-compatible)
+# Configure logging for production monitoring (cross-platform)
 import sys
 import io
 
-# Fix Windows console encoding issues
+# Fix Windows console encoding issues while maintaining Linux compatibility
 if sys.platform.startswith('win'):
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    try:
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    except AttributeError:
+        # Handle cases where stdout/stderr don't have buffer attribute
+        pass
 
 logging.basicConfig(
     level=logging.INFO,
