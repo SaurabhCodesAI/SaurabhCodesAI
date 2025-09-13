@@ -1,0 +1,66 @@
+name: Test All Fixes
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-everything:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install svgwrite pillow
+        
+    - name: Run complete test
+      run: |
+        echo "=== Testing Complete Workflow ==="
+        cd "$GITHUB_WORKSPACE"
+        echo "Working directory: $(pwd)"
+        
+        echo "=== Environment Check ==="
+        python3 --version
+        pip list | grep -E "(svgwrite|pillow)"
+        ls -la scripts/
+        
+        echo "=== Script Execution ==="
+        chmod +x scripts/generate_svg.py
+        python3 "$GITHUB_WORKSPACE/scripts/generate_svg.py"
+        
+        echo "=== Results Validation ==="
+        ls -la *.svg
+        
+        for svg in header.svg analytics.svg; do
+          if [ -f "$svg" ]; then
+            size=$(stat -c%s "$svg")
+            echo "✅ $svg: ${size} bytes"
+            if [ "$size" -gt 1000 ]; then
+              echo "✅ $svg size is valid"
+            else
+              echo "❌ $svg is too small"
+              exit 1
+            fi
+          else
+            echo "❌ $svg not found"
+            exit 1
+          fi
+        done
+        
+        echo "🎉 ALL TESTS PASSED!"
