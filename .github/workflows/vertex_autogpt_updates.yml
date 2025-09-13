@@ -2,7 +2,6 @@ name: VertexAutoGPT Profile Updates
 
 on:
   schedule:
-    # Update every 4 hours to show active development
     - cron: '0 */4 * * *'
   push:
     branches: [ main ]
@@ -11,13 +10,18 @@ on:
 jobs:
   update-vertex-profile:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: false
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
         
@@ -32,15 +36,19 @@ jobs:
         
     - name: Commit and push updates
       run: |
-        git config --local user.email "vertex-agent@github.com"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "VertexAutoGPT Agent"
-        git add header.svg
-        git diff --staged --quiet || git commit -m "🤖 VertexAutoGPT Status Update - $(date '+%Y-%m-%d %H:%M UTC')
+        git add header.svg analytics.svg
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 VertexAutoGPT Status Update - $(date '+%Y-%m-%d %H:%M UTC')
 
         🧠 Vector Memory: Optimized
         🔧 Tool Router: Active
         ☁️  GCP Infrastructure: Running
         ⚡ Agent Development: In Progress"
-        git push
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
