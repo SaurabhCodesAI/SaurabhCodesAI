@@ -2,15 +2,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="300" version="1.1" width="1200">
   <defs>
     <linearGradient id="mainGradient" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0" stop-color="#0B0B14"/>
-      <stop offset="0.3" stop-color="#16213E"/>
-      <stop offset="0.6" stop-color="#0F3460"/>
-      <stop offset="1" stop-color="#0D1B2A"/>
+      <stop offset="0.0" stop-color="#0B0B14" stop-opacity="1.0"/>
+      <stop offset="0.3333333333333333" stop-color="#16213E" stop-opacity="1.0"/>
+      <stop offset="0.6666666666666666" stop-color="#0F3460" stop-opacity="1.0"/>
+      <stop offset="1.0" stop-color="#0D1B2A" stop-opacity="1.0"/>
     </linearGradient>
-    <linearGradient id="neuralGradient" x1="0%" x2="100%" y1="0%" y2="0%">
-      <stop offset="0" stop-color="#00B4D8" stop-opacity="0.8"/>
+    <linearGradient id="neuralGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0.0" stop-color="#00B4D8" stop-opacity="0.8"/>
       <stop offset="0.5" stop-color="#0077B6" stop-opacity="0.6"/>
-      <stop offset="1" stop-color="#023E8A" stop-opacity="0.4"/>
+      <stop offset="1.0" stop-color="#023E8A" stop-opacity="0.4"/>
     </linearGradient>
   </defs>
   <rect fill="url(#mainGradient)" height="300" width="1200" x="0" y="0">
@@ -670,7 +670,7 @@
     <text style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;" x="740" y="166">☁️  Availability: Ready for Opportunities</text>
     <text style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;" x="740" y="188">🐳 Tech Stack: Python, LangChain, FAISS</text>
     <text style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;" x="740" y="210">📊 Specialization: Autonomous AI Agents</text>
-    <text style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;" x="740" y="232">⏰ 19:22 IST • Activity: High</text>
+    <text style="font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F4FD; font-weight: 500;" x="740" y="232">⏰ 19:33 IST • Activity: High</text>
   </g>
   <circle cx="819.7542630139502" cy="164.02578145690114" fill="#FF5722" opacity="0.7" r="2">
     <animateTransform dur="7.816802709404072s" repeatCount="indefinite" type="translate" values="0,0;-89,-10;0,0"/>
