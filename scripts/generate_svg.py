@@ -3,7 +3,6 @@ import svgwrite
 from datetime import datetime, timezone, timedelta
 import random
 import math
-import os
 
 def get_ist_time():
     """Get current time in IST"""
@@ -107,19 +106,26 @@ def create_data_particles(dwg, width, height):
         x = random.uniform(100, width - 100)
         y = random.uniform(140, height - 80)
         particle = dwg.circle(center=(x, y), r=2, fill="#FF5722" if i % 3 == 0 else "#00B4D8", opacity=0.7)
+        
         move_x = random.randint(50, 150) * random.choice([1, -1])
         move_y = random.randint(-30, 30)
         
-        # FINAL FIX: Using explicit keyword arguments (attributeName, type) to prevent errors.
+        # ✅ Fixed animateTransform usage
         particle.add(dwg.animateTransform(
-            attributeName="transform", 
-            type="translate",
-            values=[f"0 0", f"{move_x} {move_y}", f"0 0"],
+            transform="translate",
+            from_="0 0",
+            to=f"{move_x} {move_y}",
             dur=f"{random.uniform(5, 12)}s",
             repeatCount="indefinite"
         ))
         
-        particle.add(dwg.animate(attributeName="opacity", values="0.3;1;0.3", dur=f"{random.uniform(2, 5)}s", repeatCount="indefinite"))
+        particle.add(dwg.animate(
+            attributeName="opacity",
+            values="0.3;1;0.3",
+            dur=f"{random.uniform(2, 5)}s",
+            repeatCount="indefinite"
+        ))
+        
         dwg.add(particle)
 
 def main():
