@@ -1,0 +1,102 @@
+name: Debug Workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+      
+    - name: Environment Debug
+      run: |
+        echo "=== ENVIRONMENT DEBUG ==="
+        echo "PWD: $(pwd)"
+        echo "HOME: $HOME"
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        echo "User: $(whoami)"
+        echo "Python version: $(python3 --version)"
+        echo "Python path: $(which python3)"
+        echo ""
+        
+        echo "=== DIRECTORY STRUCTURE ==="
+        ls -la
+        echo ""
+        
+        echo "=== SCRIPTS DIRECTORY ==="
+        if [ -d "scripts" ]; then
+          ls -la scripts/
+          echo "generate_svg.py exists: $([ -f scripts/generate_svg.py ] && echo 'YES' || echo 'NO')"
+          if [ -f scripts/generate_svg.py ]; then
+            echo "generate_svg.py size: $(wc -c < scripts/generate_svg.py) bytes"
+            echo "First 10 lines of generate_svg.py:"
+            head -10 scripts/generate_svg.py
+          fi
+        else
+          echo "Scripts directory not found!"
+        fi
+        echo ""
+        
+        echo "=== WORKFLOWS DIRECTORY ==="
+        ls -la .github/workflows/
+        echo ""
+        
+        echo "=== GIT STATUS ==="
+        git status
+        echo ""
+        
+        echo "=== EXISTING SVG FILES ==="
+        ls -la *.svg 2>/dev/null || echo "No SVG files found"
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        echo "=== INSTALLING DEPENDENCIES ==="
+        python3 -m pip install --upgrade pip
+        pip install svgwrite pillow
+        echo "Dependencies installed successfully"
+        pip list | grep -E "(svgwrite|pillow)"
+
+    - name: Test Python Script
+      run: |
+        echo "=== TESTING PYTHON SCRIPT ==="
+        cd "$GITHUB_WORKSPACE"
+        echo "Current directory: $(pwd)"
+        
+        if [ -f scripts/generate_svg.py ]; then
+          echo "Running generate_svg.py..."
+          python3 scripts/generate_svg.py
+          echo "Script execution completed"
+          
+          echo "=== CHECKING GENERATED FILES ==="
+          ls -la *.svg 2>/dev/null || echo "No SVG files generated"
+          
+          for svg in header.svg analytics.svg; do
+            if [ -f "$svg" ]; then
+              size=$(stat -c%s "$svg")
+              echo "✅ $svg: ${size} bytes"
+            else
+              echo "❌ $svg: not found"
+            fi
+          done
+        else
+          echo "❌ scripts/generate_svg.py not found!"
+          exit 1
+        fi
