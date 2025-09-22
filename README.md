@@ -19,10 +19,10 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
+I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous hybrid research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;VertexAutoGPT+%7C+Self-Improving+Agent+Architecture" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;VertexAutoGPT+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
 </div>
 
 I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
@@ -64,45 +64,46 @@ I specialize in creating AI systems that bridge cutting edge research with pract
 
 ### [VertexAutoGPT](https://github.com/SaurabhCodesAI/VertexAutoGPT)
 
-**Autonomous Research Agent**
+**Autonomous Hybrid Research Agent**
 
-An intelligent system capable of ingesting and summarizing information from multiple sources using a dynamic tool selection mechanism and a vector based memory for long term context retention.
+An intelligent system capable of ingesting and summarizing information from multiple sources using a dynamic tool selection mechanism and a vector-based memory for long-term context retention, integrating both cloud APIs and local open models.
 
 <details>
   <summary><b>🔍 View Project Details</b></summary>
   
   <h4>Key Features</h4>
   <ul>
-    <li><b>Vector Memory System</b>: FAISS powered semantic storage and retrieval</li>
-    <li><b>Dynamic Tool Selection</b>: Intelligent routing to Google Search API, Arxiv API, Browse function</li>
-    <li><b>Self Improvement Loop</b>: Rule based feedback for enhanced tool selection</li>
-    <li><b>Cost Optimization</b>: GCP Preemptible VMs with Docker for 85% cost reduction</li>
-    <li><b>Async Architecture</b>: Python, AsyncIO, LangChain for concurrent operations</li>
+    <li><b>Hybrid Provider Integration</b>: Intelligently routes requests across Azure, Google Gemini, Perplexity AI, and local open models like Llama 3.1 8B and CodeLlama 7B.</li>
+    <li><b>Vector Memory System</b>: FAISS-powered semantic storage and retrieval, utilizing all-MiniLM-L6-v2 embeddings for enhanced context.</li>
+    <li><b>Dynamic Tool Selection</b>: Intelligent routing to Google Search API, Arxiv API, custom browse functions, and specialized local models.</li>
+    <li><b>Self-Improvement Loop</b>: Rule-based feedback for enhanced tool selection and adaptation.</li>
+    <li><b>Cost & Rate Limit Optimization</b>: Strategic utilization of cloud APIs with smart rate limit management, alongside local models for cost-effective operations.</li>
+    <li><b>Asynchronous Architecture</b>: Python, AsyncIO, LangChain for concurrent operations and scalable task execution.</li>
+    <li><b>Local GPU Integration</b>: Leverages local GPU for privacy-sensitive tasks, on-device code generation with CodeLlama 7B, and offline capabilities.</li>
   </ul>
   
   <h4>Technical Architecture</h4>
   
-  ```
-  ┌─────────────────┐    ┌──────────────────┐    ┌───────────────────┐
-  │                 │    │                  │    │                   │
-  │   User Request  ├────►│  Task Planning   ├────►│  Tool Selection   │
-  │                 │    │                  │    │                   │
-  └─────────────────┘    └──────────────────┘    └─────────┬─────────┘
-                                                            │
-                                                            ▼
-  ┌─────────────────┐    ┌──────────────────┐    ┌───────────────────┐
-  │                 │    │                  │    │                   │
-  │  Presentation   │◄────┤  Summarization   │◄────┤  Information      │
-  │                 │    │                  │    │  Gathering        │
-  └─────────────────┘    └──────────────────┘    └───────────────────┘
-  ```
+┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
+│ │ │ │ │ │
+│ User Request ├────►│ Task Planning ├────►│ Tool Selection │
+│ │ │ │ │ │
+└─────────────────┘ └──────────────────┘ └─────────┬─────────┘
+│
+▼
+┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
+│ │ │ │ │ │
+│ Presentation │◄────┤ Summarization │◄────┤ Information │
+│ │ │ │ │ Gathering │
+└─────────────────┘ └──────────────────┘ └───────────────────┘
 
-  <h4>Results & Impact</h4>
-  <ul>
-    <li>Reduced research time by 15x compared to manual methods</li>
-    <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
-    <li>Sub second context retrieval for real time decision making</li>
-  </ul>
+
+<h4>Results & Impact</h4>
+<ul>
+  <li>Reduced research time by 15x compared to manual methods</li>
+  <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
+  <li>Sub-second context retrieval for real-time decision making</li>
+</ul>
 </details>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
@@ -116,18 +117,18 @@ Built during Major League Hacking, Snap2Slides transforms screenshots, images, a
 
 <h4>Key Features</h4>
 <ul>
-  <li><b>Automated Content Extraction</b>: Using Google Gemini Vision API</li>
-  <li><b>AI Theme Generator</b>: Smart color palette and layout suggestions</li>
-  <li><b>Drag & Drop Interface</b>: Intuitive content organization</li>
-  <li><b>Multiple Export Formats</b>: PDF, PPTX, HTML support</li>
+<li><b>Automated Content Extraction</b>: Using Google Gemini Vision API</li>
+<li><b>AI Theme Generator</b>: Smart color palette and layout suggestions</li>
+<li><b>Drag & Drop Interface</b>: Intuitive content organization</li>
+<li><b>Multiple Export Formats</b>: PDF, PPTX, HTML support</li>
 </ul>
 
 <h4>Technical Implementation</h4>
 <ul>
-  <li><b>Next.js 14</b> with App Router for modern UI architecture</li>
-  <li><b>TypeScript</b> with strict configuration for type safety</li>
-  <li><b>Tailwind CSS</b> for responsive, accessible design</li>
-  <li><b>CI/CD Pipeline</b> with health monitoring for production readiness</li>
+<li><b>Next.js 14</b> with App Router for modern UI architecture</li>
+<li><b>TypeScript</b> with strict configuration for type safety</li>
+<li><b>Tailwind CSS</b> for responsive, accessible design</li>
+<li><b>CI/CD Pipeline</b> with health monitoring for production readiness</li>
 </ul>
 </details>
 
@@ -142,11 +143,11 @@ Designing and building a fully autonomous research agent capable of self-directe
 
 <h4>Implementation Highlights</h4>
 <ul>
-  <li>FAISS vector memory system for long term context retention</li>
-  <li>Dynamic tool router for selecting optimal APIs at runtime</li>
-  <li>Feedback loop mechanism for agent self improvement</li>
-  <li>FastAPI backend in a Dockerized environment</li>
-  <li>Fine tuned LLaMa 2 7B for optimal latency and memory constraints</li>
+<li>FAISS vector memory system for long term context retention</li>
+<li>Dynamic tool router for selecting optimal APIs at runtime</li>
+<li>Feedback loop mechanism for agent self improvement</li>
+<li>FastAPI backend in a Dockerized environment</li>
+<li>Fine tuned LLaMa 2 7B for optimal latency and memory constraints</li>
 </ul>
 </details>
 
@@ -161,18 +162,18 @@ Production grade Unicode aware character frequency mapping module featuring stre
 
 <h4>Technical Features</h4>
 <ul>
-  <li>Stream based normalization for efficient processing</li>
-  <li>Regex filtering for targeted character analysis</li>
-  <li>Thread safety for parallel processing</li>
-  <li>Memory profiling and optimization for large datasets</li>
-  <li>Unicode handling with comprehensive character support</li>
+<li>Stream based normalization for efficient processing</li>
+<li>Regex filtering for targeted character analysis</li>
+<li>Thread safety for parallel processing</li>
+<li>Memory profiling and optimization for large datasets</li>
+<li>Unicode handling with comprehensive character support</li>
 </ul>
 </details>
 
 ## 💼 Professional Experience
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
 </div>
 
 ### AI Engineering Intern | [Cushion](https://cushion.ai)
@@ -187,18 +188,18 @@ Identified key operational bottlenecks and built an AI driven solution using Pyt
 
 <h4>Key Contributions</h4>
 <ul>
-  <li>Built internal tools to automate manual workflows using AI/ML techniques</li>
-  <li>Contributed to web dashboard development (frontend and backend)</li>
-  <li>Created modular Python scripts for small scale AI task automation</li>
-  <li>Implemented clean, efficient code following best practices</li>
-  <li>Collaborated in a remote startup environment with rapid iteration cycles</li>
+<li>Built internal tools to automate manual workflows using AI/ML techniques</li>
+<li>Contributed to web dashboard development (frontend and backend)</li>
+<li>Created modular Python scripts for small scale AI task automation</li>
+<li>Implemented clean, efficient code following best practices</li>
+<li>Collaborated in a remote startup environment with rapid iteration cycles</li>
 </ul>
 
 <h4>Technologies Used</h4>
 <ul>
-  <li>Python for automation scripts and backend logic</li>
-  <li>Web technologies for dashboard development</li>
-  <li>AI/ML libraries for workflow optimization</li>
+<li>Python for automation scripts and backend logic</li>
+<li>Web technologies for dashboard development</li>
+<li>AI/ML libraries for workflow optimization</li>
 </ul>
 </details>
 
@@ -214,25 +215,25 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 <h4>Key Responsibilities</h4>
 <ul>
-  <li>Helped write clean, testable code for improved system reliability</li>
-  <li>Fixed bugs and improved small modules in the existing codebase</li>
-  <li>Implemented efficient workflows in a remote development setup</li>
-  <li>Collaborated with senior developers on feature implementation</li>
-  <li>Participated in code reviews and best practice discussions</li>
+<li>Helped write clean, testable code for improved system reliability</li>
+<li>Fixed bugs and improved small modules in the existing codebase</li>
+<li>Implemented efficient workflows in a remote development setup</li>
+<li>Collaborated with senior developers on feature implementation</li>
+<li>Participated in code reviews and best practice discussions</li>
 </ul>
 
 <h4>Technical Skills Developed</h4>
 <ul>
-  <li>Backend development patterns and practices</li>
-  <li>Code quality and testing methodologies</li>
-  <li>Remote collaboration and workflow management</li>
+<li>Backend development patterns and practices</li>
+<li>Code quality and testing methodologies</li>
+<li>Remote collaboration and workflow management</li>
 </ul>
 </details>
 
 ## 🛠️ Technology Stack
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="300">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="300">
 </div>
 
 <div align="center">
@@ -251,34 +252,34 @@ Contributed to backend logic and internal tooling to improve system reliability 
 ## 🎓 Credentials & Certifications
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="300">
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="300">
 </div>
 
 <div align="center">
 <table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/AWS-Generative_AI_with_LLMs-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white"/><br>
-      <b>Amazon Web Services (AWS)</b><br>
-      <i>Issued Aug 2025 • Credential ID: 3LSGZVMW38P4</i>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/Stanford-Machine_Learning_Specialization-8C1515?style=for-the-badge&logo=stanford&logoColor=white"/><br>
-      <b>Stanford Online</b><br>
-      <i>Issued Jul 2025 • Credential ID: M253FPD7UTH</i>
-    </td>
-  </tr>
+<tr>
+  <td align="center" width="50%">
+    <img src="https://img.shields.io/badge/AWS-Generative_AI_with_LLMs-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white"/><br>
+    <b>Amazon Web Services (AWS)</b><br>
+    <i>Issued Aug 2025 • Credential ID: 3LSGZVMW38P4</i>
+  </td>
+  <td align="center" width="50%">
+    <img src="https://img.shields.io/badge/Stanford-Machine_Learning_Specialization-8C1515?style=for-the-badge&logo=stanford&logoColor=white"/><br>
+    <b>Stanford Online</b><br>
+    <i>Issued Jul 2025 • Credential ID: M253FPD7UTH</i>
+  </td>
+</tr>
 </table>
 </div>
 
 ## 🔗 Connect & Collaborate
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together;Open+to+Collaboration+on+Autonomous+AI+Systems;Remote+Opportunities+Welcome" alt="Collaboration Invite" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together;Open+to+Collaboration+on+Autonomous+AI+Systems;Remote+Opportunities+Welcome" alt="Collaboration Invite" />
 </div>
 
 <div align="center">
@@ -298,14 +299,4 @@ Contributed to backend logic and internal tooling to improve system reliability 
 
 ---
 
-<div align="center">
-<b>"Building intelligent systems that augment human capabilities and solve real world problems"</b>
-<br><br>
-<i>VertexAutoGPT: Where autonomous intelligence meets practical engineering</i>
-</div>
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/SaurabhCodesAI">Saurabh Pareek</a> • AI Engineer & Autonomous Systems Developer</sub>
-</div>
+<div align
