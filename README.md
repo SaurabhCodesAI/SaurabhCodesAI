@@ -19,10 +19,10 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **VertexAutoGPT**, is an autonomous hybrid research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
+I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **ENTAERA**, is an autonomous hybrid research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;VertexAutoGPT+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;ENTAERA+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
 </div>
 
 I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
@@ -62,7 +62,7 @@ I specialize in creating AI systems that bridge cutting edge research with pract
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
 
-### [VertexAutoGPT](https://github.com/SaurabhCodesAI/VertexAutoGPT)
+### [ENTAERA](https://github.com/SaurabhCodesAI/VertexAutoGPT)
 
 **Autonomous Hybrid Research Agent**
 
@@ -105,198 +105,3 @@ An intelligent system capable of ingesting and summarizing information from mult
   <li>Sub-second context retrieval for real-time decision making</li>
 </ul>
 </details>
-
-### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
-
-**AI Powered Presentation Generator (Hackathon)**
-
-Built during Major League Hacking, Snap2Slides transforms screenshots, images, and notes into professional presentations using AI driven content analysis and theme generation.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Key Features</h4>
-<ul>
-<li><b>Automated Content Extraction</b>: Using Google Gemini Vision API</li>
-<li><b>AI Theme Generator</b>: Smart color palette and layout suggestions</li>
-<li><b>Drag & Drop Interface</b>: Intuitive content organization</li>
-<li><b>Multiple Export Formats</b>: PDF, PPTX, HTML support</li>
-</ul>
-
-<h4>Technical Implementation</h4>
-<ul>
-<li><b>Next.js 14</b> with App Router for modern UI architecture</li>
-<li><b>TypeScript</b> with strict configuration for type safety</li>
-<li><b>Tailwind CSS</b> for responsive, accessible design</li>
-<li><b>CI/CD Pipeline</b> with health monitoring for production readiness</li>
-</ul>
-</details>
-
-### [Core Dev Workflow](https://github.com/SaurabhCodesAI/core-dev-workflow)
-
-**Autonomous Agent Framework**
-
-Designing and building a fully autonomous research agent capable of self-directed reasoning, document processing, and information summarization.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Implementation Highlights</h4>
-<ul>
-<li>FAISS vector memory system for long term context retention</li>
-<li>Dynamic tool router for selecting optimal APIs at runtime</li>
-<li>Feedback loop mechanism for agent self improvement</li>
-<li>FastAPI backend in a Dockerized environment</li>
-<li>Fine tuned LLaMa 2 7B for optimal latency and memory constraints</li>
-</ul>
-</details>
-
-### [Ultimate Character Frequency Map](https://github.com/SaurabhCodesAI/ultimate-char-freq)
-
-**Advanced Text Processing Module**
-
-Production grade Unicode aware character frequency mapping module featuring stream based normalization, regex filtering, and thread safe implementation.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Technical Features</h4>
-<ul>
-<li>Stream based normalization for efficient processing</li>
-<li>Regex filtering for targeted character analysis</li>
-<li>Thread safety for parallel processing</li>
-<li>Memory profiling and optimization for large datasets</li>
-<li>Unicode handling with comprehensive character support</li>
-</ul>
-</details>
-
-## 💼 Professional Experience
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
-</div>
-
-### AI Engineering Intern | [Cushion](https://cushion.ai)
-*Remote • 2024*
-
-**AI Workflow Automation & Dashboard Development**
-
-Identified key operational bottlenecks and built an AI driven solution using Python to automate repetitive data tasks, freeing up the team to focus on higher impact work.
-
-<details>
-<summary><b>🔍 View Experience Details</b></summary>
-
-<h4>Key Contributions</h4>
-<ul>
-<li>Built internal tools to automate manual workflows using AI/ML techniques</li>
-<li>Contributed to web dashboard development (frontend and backend)</li>
-<li>Created modular Python scripts for small scale AI task automation</li>
-<li>Implemented clean, efficient code following best practices</li>
-<li>Collaborated in a remote startup environment with rapid iteration cycles</li>
-</ul>
-
-<h4>Technologies Used</h4>
-<ul>
-<li>Python for automation scripts and backend logic</li>
-<li>Web technologies for dashboard development</li>
-<li>AI/ML libraries for workflow optimization</li>
-</ul>
-</details>
-
-### Software Engineering Intern | [Internshala](https://internshala.com)
-*Remote • 2023*
-
-**Backend Development & System Reliability**
-
-Contributed to backend logic and internal tooling to improve system reliability and efficiency in a remote startup environment.
-
-<details>
-<summary><b>🔍 View Experience Details</b></summary>
-
-<h4>Key Responsibilities</h4>
-<ul>
-<li>Helped write clean, testable code for improved system reliability</li>
-<li>Fixed bugs and improved small modules in the existing codebase</li>
-<li>Implemented efficient workflows in a remote development setup</li>
-<li>Collaborated with senior developers on feature implementation</li>
-<li>Participated in code reviews and best practice discussions</li>
-</ul>
-
-<h4>Technical Skills Developed</h4>
-<ul>
-<li>Backend development patterns and practices</li>
-<li>Code quality and testing methodologies</li>
-<li>Remote collaboration and workflow management</li>
-</ul>
-</details>
-
-## 🛠️ Technology Stack
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="300">
-</div>
-
-<div align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Asyncio-FFD43B?style=for-the-badge&logo=python&logoColor=black"/>
-<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Llama_2-FF6600?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-</div>
-
-## 🎓 Credentials & Certifications
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="300">
-</div>
-
-<div align="center">
-<table width="100%">
-<tr>
-  <td align="center" width="50%">
-    <img src="https://img.shields.io/badge/AWS-Generative_AI_with_LLMs-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white"/><br>
-    <b>Amazon Web Services (AWS)</b><br>
-    <i>Issued Aug 2025 • Credential ID: 3LSGZVMW38P4</i>
-  </td>
-  <td align="center" width="50%">
-    <img src="https://img.shields.io/badge/Stanford-Machine_Learning_Specialization-8C1515?style=for-the-badge&logo=stanford&logoColor=white"/><br>
-    <b>Stanford Online</b><br>
-    <i>Issued Jul 2025 • Credential ID: M253FPD7UTH</i>
-  </td>
-</tr>
-</table>
-</div>
-
-## 🔗 Connect & Collaborate
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
-</div>
-
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together;Open+to+Collaboration+on+Autonomous+AI+Systems;Remote+Opportunities+Welcome" alt="Collaboration Invite" />
-</div>
-
-<div align="center">
-<a href="https://www.linkedin.com/in/saurabh-pareekk/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/SaurabhCodesAI"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="mailto:saurabhpareek228@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</div>
-
-### 🎯 Currently Seeking
-
-**Remote Contracts in:**
-- AI/ML Engineering
-- LLM Applications & AI Agents  
-- AI Infrastructure & MLOps
-
-**Ideal Collaboration:** Building AI systems where performance, memory constraints, and real world deployment challenges matter.
-
----
-
-<div align
