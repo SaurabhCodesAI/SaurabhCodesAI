@@ -150,24 +150,6 @@ Designing and building a fully autonomous research agent capable of self-directe
 </ul>
 </details>
 
-### [Ultimate Character Frequency Map](https://github.com/SaurabhCodesAI/ultimate-char-freq)
-
-**Advanced Text Processing Module**
-
-Production grade Unicode aware character frequency mapping module featuring stream based normalization, regex filtering, and thread safe implementation.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Technical Features</h4>
-<ul>
-<li>Stream based normalization for efficient processing</li>
-<li>Regex filtering for targeted character analysis</li>
-<li>Thread safety for parallel processing</li>
-<li>Memory profiling and optimization for large datasets</li>
-<li>Unicode handling with comprehensive character support</li>
-</ul>
-</details>
 
 ## 💼 Professional Experience
 
