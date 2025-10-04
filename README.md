@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer;Building+the+Future+with+AI" alt="Dynamic Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer;Production-Ready+AI+Systems" alt="Dynamic Header" />
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -12,20 +12,16 @@
 ##  Executive Summary
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=2000&color=64FFDA&center=true&vCenter=true&width=900&height=60&lines=You+don't+get+to+go+through+life+only+doing+things+you+feel+like+doing.;The+faster+you+work,+the+more+work+you+get+done.;Be+more+than+motivated,+be+more+than+driven,+become+obsessed." alt="Motivational Quotes" />
-</div>
-
-<div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I'm Saurabh Pareek, an **AI Engineer** focused on building autonomous systems that solve real world problems through intelligent decision making. My flagship project, **ENTAERA**, is an autonomous hybrid research agent that can choose the right tools, remember important information, and adapt its approach to different tasks while optimizing for cost efficiency.
+I am an **AI Engineer** focused on building autonomous systems for complex problem-solving. My flagship project, **ENTAERA**, is an autonomous hybrid research agent that dynamically selects tools, maintains long-term memory, and adapts its strategy to optimize for both performance and cost-efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Building+Autonomous+AI+Agents+%7C+Vector+Memory+Systems;LangChain+%7C+FastAPI+%7C+FAISS+%7C+LLaMA+Integration;85%25+Cost+Optimization+%7C+GCP+%7C+Docker+Deployment;Research+to+Production+%7C+Real-world+AI+Solutions;ENTAERA+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Autonomous+AI+Agents+%7C+Vector+Memory+Systems;Intelligent+Routing+%7C+Multi-API+Integration;Research+to+Production+%7C+Deployable+AI+Solutions;End-to-End+Agentic+Workflows+%7C+Cost-Aware+Design;ENTAERA+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
 </div>
 
-I specialize in creating AI systems that bridge cutting edge research with practical, deployable solutions.
+I specialize in the end-to-end development of AI systems, from initial API integration and debugging to building robust, multi-provider frameworks that solve real-world challenges.
 
 <table>
   <tr>
@@ -35,22 +31,22 @@ I specialize in creating AI systems that bridge cutting edge research with pract
         <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="120">
       </div>
       <ul>
-        <li><b>Autonomous AI Agents</b> that can reason, research, and take action</li>
-        <li><b>Vector Memory Systems</b> that enable long term information retention</li>
-        <li><b>Dynamic Tool Selection</b> frameworks for intelligent resource usage</li>
-        <li><b>Cost Efficient AI Infrastructure</b> for real world deployment</li>
+        <li><b>Autonomous AI Agents</b> that can reason, research, and execute multi-step tasks</li>
+        <li><b>Vector Memory Systems</b> for long-term, context-aware information retention</li>
+        <li><b>Dynamic Tool Selection Frameworks</b> for efficient, intelligent resource routing</li>
+        <li><b>Cost-Efficient AI Infrastructure</b> for scalable, production-ready deployment</li>
       </ul>
     </td>
     <td width="40%">
-      <h3>💡 My Approach</h3>
+      <h3>💡 Core Competencies</h3>
       <div align="center">
         <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="120">
       </div>
       <ul>
-        <li><b>Systems Thinking</b>: Building integrated solutions</li>
-        <li><b>Practical Engineering</b>: Focus on deployment readiness</li>
-        <li><b>Research Driven</b>: Applying latest innovations</li>
-        <li><b>Cost Aware Design</b>: Efficiency at the core</li>
+        <li><b>Practical Engineering</b>: Focusing on deployment readiness and robust system design</li>
+        <li><b>System Design Thinking</b>: Architecting modular and scalable applications</li>
+        <li><b>Resilient Error Handling</b>: Building systems that anticipate and manage failures gracefully</li>
+        <li><b>Cost-Aware Design</b>: Architecting for low operational cost and high efficiency</li>
       </ul>
     </td>
   </tr>
@@ -66,50 +62,49 @@ I specialize in creating AI systems that bridge cutting edge research with pract
 
 **Autonomous Hybrid Research Agent**
 
-An intelligent system capable of ingesting and summarizing information from multiple sources using a dynamic tool selection mechanism and a vector-based memory for long-term context retention, integrating both cloud APIs and local open models.
+A system designed to ingest and synthesize information from multiple sources using a dynamic tool selection mechanism and vector-based memory, integrating both cloud APIs and local open-source models.
 
 <details>
   <summary><b>🔍 View Project Details</b></summary>
-  
+ 
   <h4>Key Features</h4>
   <ul>
-    <li><b>Hybrid Provider Integration</b>: Intelligently routes requests across Azure, Google Gemini, Perplexity AI, and local open models like Llama 3.1 8B and CodeLlama 7B.</li>
-    <li><b>Vector Memory System</b>: FAISS-powered semantic storage and retrieval, utilizing all-MiniLM-L6-v2 embeddings for enhanced context.</li>
-    <li><b>Dynamic Tool Selection</b>: Intelligent routing to Google Search API, Arxiv API, custom browse functions, and specialized local models.</li>
-    <li><b>Self-Improvement Loop</b>: Rule-based feedback for enhanced tool selection and adaptation.</li>
-    <li><b>Cost & Rate Limit Optimization</b>: Strategic utilization of cloud APIs with smart rate limit management, alongside local models for cost-effective operations.</li>
-    <li><b>Asynchronous Architecture</b>: Python, AsyncIO, LangChain for concurrent operations and scalable task execution.</li>
-    <li><b>Local GPU Integration</b>: Leverages local GPU for privacy-sensitive tasks, on-device code generation with CodeLlama 7B, and offline capabilities.</li>
+    <li><b>Hybrid Provider Integration</b>: Routes requests across Azure, Google Gemini, Perplexity AI, and local models like Llama 3.1 8B.</li>
+    <li><b>Vector Memory System</b>: FAISS-powered semantic storage and retrieval using all-MiniLM-L6-v2 embeddings.</li>
+    <li><b>Dynamic Tool Selection</b>: Routes to Google Search, Arxiv, and custom functions based on task requirements.</li>
+    <li><b>Self-Correction Loop</b>: Implements rule-based feedback for improved tool selection over time.</li>
+    <li><b>Cost & Rate Limit Management</b>: Strategically utilizes cloud APIs alongside local models to reduce operational costs.</li>
+    <li><b>Asynchronous Architecture</b>: Built with Python, AsyncIO, and LangChain for concurrent, scalable task execution.</li>
   </ul>
-  
+ 
   <h4>Technical Architecture</h4>
-  
+ 
 ┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
-│ │ │ │ │ │
-│ User Request ├────►│ Task Planning ├────►│ Tool Selection │
-│ │ │ │ │ │
+│                 │ │                  │ │                   │
+│  User Request   ├────►│  Task Planning   ├────►│  Tool Selection   │
+│                 │ │                  │ │                   │
 └─────────────────┘ └──────────────────┘ └─────────┬─────────┘
-│
-▼
+                                                  │
+                                                  ▼
 ┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
-│ │ │ │ │ │
-│ Presentation │◄────┤ Summarization │◄────┤ Information │
-│ │ │ │ │ Gathering │
+│                 │ │                  │ │                   │
+│  Presentation   │◄────┤  Summarization   │◄────┤   Information     │
+│                 │ │                  │ │    Gathering      │
 └─────────────────┘ └──────────────────┘ └───────────────────┘
 
-<h4>Results & Impact</h4>
+<h4>Proven Capabilities</h4>
 <ul>
-  <li>Reduced research time by 15x compared to manual methods</li>
-  <li>Achieved 92% accuracy in tool selection for optimal task execution</li>
-  <li>Sub-second context retrieval for real-time decision making</li>
+  <li><b>Four AI Services Connected</b>: Reliably integrates Azure OpenAI, Google Gemini, Perplexity, and local Ollama.</li>
+  <li><b>Smart Routing System</b>: Analyzes query type and complexity to select the appropriate AI service while tracking costs.</li>
+  <li><b>Solid Foundation</b>: Built with professional logging, secure credential management, and comprehensive error handling.</li>
 </ul>
 </details>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
 
-**AI Powered Presentation Generator (Hackathon)**
+**AI-Powered Presentation Generator (Hackathon)**
 
-Built during Major League Hacking, Snap2Slides transforms screenshots, images, and notes into professional presentations using AI driven content analysis and theme generation.
+Transforms screenshots, images, and notes into presentations using AI-driven content analysis and theme generation.
 
 <details>
 <summary><b>🔍 View Project Details</b></summary>
@@ -135,7 +130,7 @@ Built during Major League Hacking, Snap2Slides transforms screenshots, images, a
 
 **Autonomous Agent Framework**
 
-Designing and building a fully autonomous research agent capable of self-directed reasoning, document processing, and information summarization.
+An autonomous agent framework capable of self-directed reasoning, document processing, and information summarization.
 
 <details>
 <summary><b>🔍 View Project Details</b></summary>
@@ -143,10 +138,10 @@ Designing and building a fully autonomous research agent capable of self-directe
 <h4>Implementation Highlights</h4>
 <ul>
 <li>FAISS vector memory system for long term context retention</li>
-<li>Dynamic tool router for selecting optimal APIs at runtime</li>
-<li>Feedback loop mechanism for agent self improvement</li>
+<li>Dynamic tool router for selecting appropriate APIs at runtime</li>
+<li>Feedback loop mechanism for agent self-correction</li>
 <li>FastAPI backend in a Dockerized environment</li>
-<li>Fine tuned LLaMa 2 7B for optimal latency and memory constraints</li>
+<li>Fine-tuned LLaMa 2 7B for specific latency and memory constraints</li>
 </ul>
 </details>
 
@@ -157,58 +152,38 @@ Designing and building a fully autonomous research agent capable of self-directe
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
 </div>
 
-### AI Engineering Intern | [Cushion](https://cushion.ai)
-*Remote • 2024*
+### AI Engineering Intern (Contract) | [Cushion](https://cushion.ai)
+*July 2024 – Dec 2024 • Remote*
 
-**AI Workflow Automation & Dashboard Development**
-
-Identified key operational bottlenecks and built an AI driven solution using Python to automate repetitive data tasks, freeing up the team to focus on higher impact work.
+Developed and deployed AI-driven automation tools and machine learning models in a fast-paced startup environment.
 
 <details>
 <summary><b>🔍 View Experience Details</b></summary>
 
 <h4>Key Contributions</h4>
 <ul>
-<li>Built internal tools to automate manual workflows using AI/ML techniques</li>
-<li>Contributed to web dashboard development (frontend and backend)</li>
-<li>Created modular Python scripts for small scale AI task automation</li>
-<li>Implemented clean, efficient code following best practices</li>
-<li>Collaborated in a remote startup environment with rapid iteration cycles</li>
+  <li>Built Python-based automation scripts to reduce repetitive data tasks and improve workflow efficiency.</li>
+  <li>Developed and tested machine learning models for structured data, improving prediction accuracy on test datasets.</li>
+  <li>Designed and maintained data preprocessing scripts to clean, format, and validate data for reliable AI model inputs.</li>
 </ul>
 
-<h4>Technologies Used</h4>
-<ul>
-<li>Python for automation scripts and backend logic</li>
-<li>Web technologies for dashboard development</li>
-<li>AI/ML libraries for workflow optimization</li>
-</ul>
 </details>
 
 ### Software Engineering Intern | [Internshala](https://internshala.com)
-*Remote • 2023*
+*Feb 2024 – April 2024 • Remote*
 
-**Backend Development & System Reliability**
-
-Contributed to backend logic and internal tooling to improve system reliability and efficiency in a remote startup environment.
+Contributed to backend systems, focusing on API development, debugging, and performance optimization within an agile team.
 
 <details>
 <summary><b>🔍 View Experience Details</b></summary>
 
-<h4>Key Responsibilities</h4>
+<h4>Key Contributions</h4>
 <ul>
-<li>Helped write clean, testable code for improved system reliability</li>
-<li>Fixed bugs and improved small modules in the existing codebase</li>
-<li>Implemented efficient workflows in a remote development setup</li>
-<li>Collaborated with senior developers on feature implementation</li>
-<li>Participated in code reviews and best practice discussions</li>
+  <li>Contributed to backend development using Python, focusing on building and optimizing APIs for performance and clean structure.</li>
+  <li>Helped debug and fix issues across different modules, gaining an understanding of code flow, data handling, and optimization.</li>
+  <li>Collaborated with senior developers in an agile environment, participating in code reviews, documentation, and development practices.</li>
 </ul>
 
-<h4>Technical Skills Developed</h4>
-<ul>
-<li>Backend development patterns and practices</li>
-<li>Code quality and testing methodologies</li>
-<li>Remote collaboration and workflow management</li>
-</ul>
 </details>
 
 ## 🛠️ Technology Stack
@@ -223,7 +198,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Asyncio-FFD43B?style=for-the-badge&logo=python&logoColor=black"/>
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Llama_2-FF6600?style=for-the-badge&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-232323?style=for-the-badge&logo=ollama&logoColor=white"/>
 <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
@@ -260,7 +235,7 @@ Contributed to backend logic and internal tooling to improve system reliability 
 </div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Let's+Build+the+Future+of+AI+Together;Open+to+Collaboration+on+Autonomous+AI+Systems;Remote+Opportunities+Welcome" alt="Collaboration Invite" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Open+to+Collaboration+on+Complex+AI+Systems;Applying+Skills+to+Solve+Real-World+Problems;Sharing+Learnings+%26+Building+Together" alt="Collaboration Invite" />
 </div>
 
 <div align="center">
@@ -276,6 +251,6 @@ Contributed to backend logic and internal tooling to improve system reliability 
 - LLM Applications & AI Agents  
 - AI Infrastructure & MLOps
 
-**Ideal Collaboration:** Building AI systems where performance, memory constraints, and real world deployment challenges matter.
+**Ideal Collaboration:** Building AI systems where performance, memory constraints, and deployment challenges are primary considerations.
 
 ---
