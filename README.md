@@ -185,6 +185,8 @@ Contributed to backend systems, focusing on API development, debugging, and perf
 
 
 
+
+
 ## 🎓 Credentials & Certifications
 
 
@@ -204,6 +206,10 @@ Contributed to backend systems, focusing on API development, debugging, and perf
 </tr>
 </table>
 </div>
+
+
+
+
 
 ## 🔗 Connect & Collaborate
 
