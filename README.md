@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;Autonomous+Systems+Developer;Production-Ready+AI+Systems" alt="Dynamic Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek+%7C+AI+Engineer;" alt="Dynamic Header" />
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -15,13 +15,13 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I am an **AI Engineer** focused on building autonomous systems for complex problem-solving. My flagship project, **ENTAERA**, is an autonomous hybrid research agent that dynamically selects tools, maintains long-term memory, and adapts its strategy to optimize for both performance and cost-efficiency.
+I am an **AI Engineer** focused on building systems for complex problem-solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long-term memory, and adapts its strategy to optimize for both performance and cost-efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=Autonomous+AI+Agents+%7C+Vector+Memory+Systems;Intelligent+Routing+%7C+Multi-API+Integration;Research+to+Production+%7C+Deployable+AI+Solutions;End-to-End+Agentic+Workflows+%7C+Cost-Aware+Design;ENTAERA+%7C+Autonomous+Hybrid+Research+Agent" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents+%7C+Vector+Memory+Systems;Intelligent+Routing+%7C+Multi-API+Integration+%7C+Deployable+AI+Solutions;End-to-End+Agentic+Workflows+%7C+Cost-Aware+Design;ENTAERA+%7C+Hybrid+Research+Agent" alt="AI Skills Showcase" />
 </div>
 
-I specialize in the end-to-end development of AI systems, from initial API integration and debugging to building robust, multi-provider frameworks that solve real-world challenges.
+I am training for end-to-end development of AI systems, from initial API integration and debugging to building robust, multi-provider frameworks that solve real-world challenges.
 
 <table>
   <tr>
@@ -31,10 +31,10 @@ I specialize in the end-to-end development of AI systems, from initial API integ
         <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="120">
       </div>
       <ul>
-        <li><b>Autonomous AI Agents</b> that can reason, research, and execute multi-step tasks</li>
+        <li><b>AI Agents</b> that can reason, research, and execute multi-step tasks</li>
         <li><b>Vector Memory Systems</b> for long-term, context-aware information retention</li>
         <li><b>Dynamic Tool Selection Frameworks</b> for efficient, intelligent resource routing</li>
-        <li><b>Cost-Efficient AI Infrastructure</b> for scalable, production-ready deployment</li>
+        <li><b>Cost-Efficient AI Infrastructure</b> for scalable, production-deployment</li>
       </ul>
     </td>
     <td width="40%">
@@ -125,26 +125,6 @@ Transforms screenshots, images, and notes into presentations using AI-driven con
 <li><b>CI/CD Pipeline</b> with health monitoring for production readiness</li>
 </ul>
 </details>
-
-### [Core Dev Workflow](https://github.com/SaurabhCodesAI/core-dev-workflow)
-
-**Autonomous Agent Framework**
-
-An autonomous agent framework capable of self-directed reasoning, document processing, and information summarization.
-
-<details>
-<summary><b>🔍 View Project Details</b></summary>
-
-<h4>Implementation Highlights</h4>
-<ul>
-<li>FAISS vector memory system for long term context retention</li>
-<li>Dynamic tool router for selecting appropriate APIs at runtime</li>
-<li>Feedback loop mechanism for agent self-correction</li>
-<li>FastAPI backend in a Dockerized environment</li>
-<li>Fine-tuned LLaMa 2 7B for specific latency and memory constraints</li>
-</ul>
-</details>
-
 
 ## 💼 Professional Experience
 
