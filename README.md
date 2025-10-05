@@ -230,7 +230,7 @@ Contributed to backend systems, focusing on API development, debugging, and perf
 </div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Open+to+Collaboration+on+Complex+AI+Systems;Applying+Skills+to+Solve+Real-World+Problems;Sharing+Learnings+%26+Building+Together" alt="Collaboration Invite" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=3000&color=64FFDA&center=true&vCenter=true&width=800&height=50&lines=Open+to+Collaboration;Applying+Skills+to+Solve+Real-World+Problems;Sharing+Learnings+%26+Building+Together" alt="Collaboration Invite" />
 </div>
 
 <div align="center">
