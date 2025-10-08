@@ -16,7 +16,7 @@
 I am an **Developer** focused on building systems for complex problem-solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents;Intelligent+Routing+%7C+Multi-API+Integration+%7C;Agentic+Workflows;ENTAERA" alt="AI Skills Showcase" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents;Intelligent+Routing+%7C+Multi-API+Integration;Agentic+Workflows;ENTAERA" alt="AI Skills Showcase" />
 </div>
 
 I am training for end-to-end development of AI systems, from initial API integration and debugging to building robust, multi provider frameworks that solve real world challenges.
