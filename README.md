@@ -13,7 +13,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I am an **Developer** focused on building systems for complex problem-solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
+I am a **Developer** focused on building systems for complex problem-solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents;Intelligent+Routing+%7C+Multi-API+Integration;Agentic+Workflows;ENTAERA" alt="AI Skills Showcase" />
