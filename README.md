@@ -13,13 +13,13 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 </div>
 
-I am a **Developer** focused on building systems for complex problem-solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
+I am a **Developer** focused on building systems for complex problem solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents;Intelligent+Routing+%7C+Multi-API+Integration;Agentic+Workflows;ENTAERA" alt="AI Skills Showcase" />
 </div>
 
-I am training for end-to-end development of AI systems, from initial API integration and debugging to building robust, multi provider frameworks that solve real world challenges.
+I am training for end to end development of AI systems, from initial API integration and debugging to building robust, multi provider frameworks that solve real world challenges.
 
 
 ##  Projects Delivered
@@ -32,7 +32,7 @@ I am training for end-to-end development of AI systems, from initial API integra
 
 **Autonomous Hybrid Research Agent**
 
-A system designed to ingest and synthesize information from multiple sources using a dynamic tool selection mechanism and vector-based memory, integrating both cloud APIs and local open-source models.
+A system designed to ingest and synthesize information from multiple sources using a dynamic tool selection mechanism and vector based memory, integrating both cloud APIs and local open source models.
 
 <details>
   <summary><b>🔍 View Project Details</b></summary>
@@ -40,9 +40,9 @@ A system designed to ingest and synthesize information from multiple sources usi
   <h4>Key Features</h4>
   <ul>
     <li><b>Hybrid Provider Integration</b>: Routes requests across Azure, Google Gemini, Perplexity AI, and local models like Llama 3.1 8B.</li>
-    <li><b>Vector Memory System</b>: FAISS-powered semantic storage and retrieval using all-MiniLM-L6-v2 embeddings.</li>
+    <li><b>Vector Memory System</b>: FAISS powered semantic storage and retrieval using all-MiniLM-L6-v2 embeddings.</li>
     <li><b>Dynamic Tool Selection</b>: Routes to Google Search, Arxiv, and custom functions based on task requirements.</li>
-    <li><b>Self-Correction Loop</b>: Implements rule-based feedback for improved tool selection over time.</li>
+    <li><b>Self-Correction Loop</b>: Implements rule based feedback for improved tool selection over time.</li>
     <li><b>Cost & Rate Limit Management</b>: Strategically utilizes cloud APIs alongside local models to reduce operational costs.</li>
     <li><b>Asynchronous Architecture</b>: Built with Python, AsyncIO, and LangChain for concurrent, scalable task execution.</li>
   </ul>
@@ -74,7 +74,7 @@ A system designed to ingest and synthesize information from multiple sources usi
 
 **AI-Powered Presentation Generator (Hackathon)**
 
-Transforms screenshots, images, and notes into presentations using AI-driven content analysis and theme generation.
+Transforms screenshots, images, and notes into presentations using AI driven content analysis and theme generation.
 
 <details>
 <summary><b>🔍 View Project Details</b></summary>
