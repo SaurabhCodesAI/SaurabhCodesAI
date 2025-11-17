@@ -28,47 +28,69 @@ I am training for end to end development of AI systems, from initial API integra
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
 
-### [ENTAERA](https://github.com/SaurabhCodesAI/VertexAutoGPT)
+### [ENTAERA](https://github.com/SaurabhCodesAI/ENTAERA)
 
-**Autonomous Hybrid Research Agent**
+**Experimental Multi-Provider AI Agent**
 
-A system designed to ingest and synthesize information from multiple sources using a dynamic tool selection mechanism and vector based memory, integrating both cloud APIs and local open source models.
+A CLI-based AI agent that routes queries across multiple providers (Ollama, Google Gemini, Perplexity, Azure OpenAI) with conversation memory and automatic fallbacks. Built as a learning project to understand async patterns, API orchestration, and memory systems.
 
 <details>
   <summary><b>🔍 View Project Details</b></summary>
  
   <h4>Key Features</h4>
   <ul>
-    <li><b>Hybrid Provider Integration</b>: Routes requests across Azure, Google Gemini, Perplexity AI, and local models like Llama 3.1 8B.</li>
-    <li><b>Vector Memory System</b>: FAISS powered semantic storage and retrieval using all-MiniLM-L6-v2 embeddings.</li>
-    <li><b>Dynamic Tool Selection</b>: Routes to Google Search, Arxiv, and custom functions based on task requirements.</li>
-    <li><b>Self-Correction Loop</b>: Implements rule based feedback for improved tool selection over time.</li>
-    <li><b>Cost & Rate Limit Management</b>: Strategically utilizes cloud APIs alongside local models to reduce operational costs.</li>
-    <li><b>Asynchronous Architecture</b>: Built with Python, AsyncIO, and LangChain for concurrent, scalable task execution.</li>
+    <li><b>Multi-Provider Routing</b>: Ollama (local), Google Gemini, Perplexity, Azure OpenAI with fallback chains</li>
+    <li><b>Agent Specialization</b>: 5 agents (Assistant, Code, Data, Creative, Research) with keyword routing</li>
+    <li><b>Conversation Memory</b>: TF-IDF-based retrieval with persistent pickle storage (upgrading to embeddings)</li>
+    <li><b>Async Architecture</b>: Non-blocking API calls with timeout and retry handling</li>
+    <li><b>Error Resilience</b>: Exponential backoff, automatic provider fallbacks, graceful degradation</li>
   </ul>
  
-  <h4>Technical Architecture</h4>
- 
-┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
-│                 │ │                  │ │                   │
-│  User Request   ├────►│  Task Planning   ├────►│  Tool Selection   │
-│                 │ │                  │ │                   │
-└─────────────────┘ └──────────────────┘ └─────────┬─────────┘
-                                                  │
-                                                  ▼
-┌─────────────────┐ ┌──────────────────┐ ┌───────────────────┐
-│                 │ │                  │ │                   │
-│  Presentation   │◄────┤  Summarization   │◄────┤   Information     │
-│                 │ │                  │ │    Gathering      │
-└─────────────────┘ └──────────────────┘ └───────────────────┘
+  <h4>📊 Technical Architecture</h4>
+  
+  <div align="center">
+    
+```mermaid
+graph TD
+    A[👤 User Query] --> B[ Agent Router]
+    B -->|keyword: code| C1[ Code Agent]
+    B -->|keyword: data| C2[ Data Agent]
+    B -->|keyword: creative| C3[ Creative Agent]
+    B -->|keyword: research| C4[ Research Agent]
+    B -->|default| C5[ Assistant Agent]
+    
+    C1 --> D[ Memory Search TF-IDF]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    
+    D --> E[ Async API Handler]
+    
+    E --> F1[ Google Gemini]
+    E --> F2[ Perplexity]
+    E --> F3[ Ollama Local]
+    E --> F4[ Azure OpenAI]
+    
+    F1 -->|success| G[ Response]
+    F1 -->|fail| F2
+    F2 -->|fail| F3
+    F3 -->|fail| F4
+    F2 -->|success| G
+    F3 -->|success| G
+    F4 -->|success| G
+    
+    G --> H[ Memory Update]
+    H --> I[ Return to User]
+    
+    style A fill:#64FFDA,stroke:#333,stroke-width:2px,color:#000
+    style I fill:#64FFDA,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#FFA726,stroke:#333,stroke-width:2px
+    style D fill:#42A5F5,stroke:#333,stroke-width:2px
+    style E fill:#AB47BC,stroke:#333,stroke-width:2px
+    style G fill:#66BB6A,stroke:#333,stroke-width:2px
+```
 
-<h4>Proven Capabilities</h4>
-<ul>
-  <li><b>Four AI Services Connected</b>: Reliably integrates Azure OpenAI, Google Gemini, Perplexity, and local Ollama.</li>
-  <li><b>Smart Routing System</b>: Analyzes query type and complexity to select the appropriate AI service while tracking costs.</li>
-  <li><b>Solid Foundation</b>: Built with professional logging, secure credential management, and comprehensive error handling.</li>
-</ul>
-</details>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
 
