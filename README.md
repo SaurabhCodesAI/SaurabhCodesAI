@@ -46,50 +46,6 @@ A CLI-based AI agent that routes queries across multiple providers (Ollama, Goog
     <li><b>Error Resilience</b>: Exponential backoff, automatic provider fallbacks, graceful degradation</li>
   </ul>
  
-  <h4>📊 Technical Architecture</h4>
-  
-  <div align="center">
-    
-```mermaid
-graph TD
-    A[👤 User Query] --> B[ Agent Router]
-    B -->|keyword: code| C1[ Code Agent]
-    B -->|keyword: data| C2[ Data Agent]
-    B -->|keyword: creative| C3[ Creative Agent]
-    B -->|keyword: research| C4[ Research Agent]
-    B -->|default| C5[ Assistant Agent]
-    
-    C1 --> D[ Memory Search TF-IDF]
-    C2 --> D
-    C3 --> D
-    C4 --> D
-    C5 --> D
-    
-    D --> E[ Async API Handler]
-    
-    E --> F1[ Google Gemini]
-    E --> F2[ Perplexity]
-    E --> F3[ Ollama Local]
-    E --> F4[ Azure OpenAI]
-    
-    F1 -->|success| G[ Response]
-    F1 -->|fail| F2
-    F2 -->|fail| F3
-    F3 -->|fail| F4
-    F2 -->|success| G
-    F3 -->|success| G
-    F4 -->|success| G
-    
-    G --> H[ Memory Update]
-    H --> I[ Return to User]
-    
-    style A fill:#64FFDA,stroke:#333,stroke-width:2px,color:#000
-    style I fill:#64FFDA,stroke:#333,stroke-width:2px,color:#000
-    style B fill:#FFA726,stroke:#333,stroke-width:2px
-    style D fill:#42A5F5,stroke:#333,stroke-width:2px
-    style E fill:#AB47BC,stroke:#333,stroke-width:2px
-    style G fill:#66BB6A,stroke:#333,stroke-width:2px
-```
 
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
