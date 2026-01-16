@@ -3,7 +3,7 @@
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-2.8K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-3.2K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
 </div>
 
