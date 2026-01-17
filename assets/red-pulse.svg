@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 20" preserveAspectRatio="none">
-  <rect width="1200" height="20" fill="#0D1117"/>
-  <line x1="-200" y1="10" x2="0" y2="10" stroke="#FF6B6B" stroke-width="3">
-    <animate attributeName="x1" from="-200" to="1200" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="x2" from="0" to="1400" dur="2.5s" repeatCount="indefinite"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" preserveAspectRatio="none">
+  <rect width="1200" height="40" fill="#0D1117"/>
+  <line x1="-300" y1="20" x2="0" y2="20" stroke="#FF4444" stroke-width="4">
+    <animate attributeName="x1" from="-300" to="1200" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="1500" dur="2s" repeatCount="indefinite"/>
   </line>
-  <line x1="-200" y1="10" x2="0" y2="10" stroke="#FF3333" stroke-width="2" opacity="0.6">
-    <animate attributeName="x1" from="-200" to="1200" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="x2" from="0" to="1400" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+  <line x1="-300" y1="20" x2="0" y2="20" stroke="#FF0000" stroke-width="2" opacity="0.8">
+    <animate attributeName="x1" from="-300" to="1200" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="1500" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  </line>
+  <line x1="-300" y1="20" x2="0" y2="20" stroke="#FF6666" stroke-width="2" opacity="0.5">
+    <animate attributeName="x1" from="-300" to="1200" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="1500" dur="2s" begin="1.2s" repeatCount="indefinite"/>
   </line>
 </svg>
