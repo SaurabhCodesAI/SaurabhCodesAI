@@ -2,6 +2,9 @@
 <!-- ====================== HERO ========================= -->
 <!-- ===================================================== -->
 
+<!-- Animated Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:064E3B,100:64FFDA&height=180&section=header&text=&fontSize=1"/>
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek" alt="Dynamic Header" />
@@ -17,12 +20,14 @@
 
 <!-- DIAGONAL NEURAL PULSE -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=2" width="85%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=3" width="100%" />
 </div>
 
 <br/>
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## Executive Summary
 
@@ -44,12 +49,14 @@ I am training for end to end development of AI systems, from initial API integra
 
 <!-- CIRCULAR ENERGY RINGS -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/energy-rings.svg?v=2" width="75%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/energy-rings.svg?v=3" width="100%" />
 </div>
 
 <br/>
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## Projects Delivered
 
@@ -108,12 +115,36 @@ Transforms screenshots, images, and notes into presentations using AI driven con
 
 <!-- VERTICAL SCANLINES -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/scanlines.svg?v=2" width="80%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/scanlines.svg?v=3" width="100%" />
 </div>
 
 <br/>
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SaurabhCodesAI&show_icons=true&theme=react&bg_color=0D1117&border_color=64FFDA&icon_color=64FFDA&title_color=64FFDA&text_color=FFFFFF&hide_border=false" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SaurabhCodesAI&theme=react&background=0D1117&border=64FFDA&stroke=64FFDA&ring=64FFDA&fire=64FFDA&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=64FFDA&sideLabels=64FFDA&dates=FFFFFF" height="170"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SaurabhCodesAI&bg_color=0D1117&color=64FFDA&line=64FFDA&point=FFFFFF&area_color=64FFDA&area=true&hide_border=false" width="95%"/>
+</div>
+
+<br/>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🛠️ Technology Stack
 
@@ -134,9 +165,8 @@ Transforms screenshots, images, and notes into presentations using AI driven con
 
 <br/>
 
-<div align="center">
-<sub>Silent systems · Living light · Compounding skill</sub>
-</div>
+<!-- Wave Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:64FFDA,50:064E3B,100:0D1117&height=120&section=footer"/>
 
 
 
