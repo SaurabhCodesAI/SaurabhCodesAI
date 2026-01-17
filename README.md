@@ -22,7 +22,7 @@
 
 <!-- RED PULSE LINE -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/red-pulse.svg?v=2" width="100%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/red-pulse.svg?v=3" width="100%" />
 </div>
 
 <br/>
