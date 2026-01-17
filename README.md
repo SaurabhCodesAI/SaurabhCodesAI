@@ -1,13 +1,30 @@
+<!-- ===================================================== -->
+<!-- ====================== HERO ========================= -->
+<!-- ===================================================== -->
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek;" alt="Dynamic Header" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=100&lines=Saurabh+Pareek" alt="Dynamic Header" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/PROFILE%20VIEWS-3.2K+-0D1117?style=for-the-badge&logo=github&logoColor=64FFDA&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/STATUS-AVAILABLE-0D1117?style=for-the-badge&logo=check-circle&logoColor=64FFDA&labelColor=0D1117"/>
+
 </div>
 
-<div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/PROFILE%20VIEWS-3.2K+-blue?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/STATUS-AVAILABLE-yellow?style=for-the-badge&logo=check-circle&logoColor=white"/>
+<br/>
+
+<!-- DIAGONAL NEURAL PULSE -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=2" width="85%" />
 </div>
 
-##  Executive Summary
+<br/>
+
+---
+
+## Executive Summary
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
@@ -15,14 +32,26 @@
 
 I am a **Developer** focused on building systems for complex problem solving. My flagship project, **ENTAERA**, is an hybrid research agent that dynamically selects tools, maintains long term memory, and adapts its strategy to optimize for both performance and cost efficiency.
 
+<br/>
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=64FFDA&center=true&vCenter=true&width=1000&height=70&lines=AI+Agents;Intelligent+Routing+%7C+Multi-API+Integration;Agentic+Workflows;ENTAERA" alt="AI Skills Showcase" />
 </div>
 
 I am training for end to end development of AI systems, from initial API integration and debugging to building robust, multi provider frameworks that solve real world challenges.
 
+<br/>
 
-##  Projects Delivered
+<!-- CIRCULAR ENERGY RINGS -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/energy-rings.svg?v=2" width="75%" />
+</div>
+
+<br/>
+
+---
+
+## Projects Delivered
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
@@ -45,8 +74,9 @@ A CLI-based AI agent that routes queries across multiple providers (Ollama, Goog
     <li><b>Async Architecture</b>: Non-blocking API calls with timeout and retry handling</li>
     <li><b>Error Resilience</b>: Exponential backoff, automatic provider fallbacks, graceful degradation</li>
   </ul>
- 
+</details>
 
+<br/>
 
 ### [Snap2Slides](https://github.com/SaurabhCodesAI/snap2slides)
 
@@ -74,22 +104,38 @@ Transforms screenshots, images, and notes into presentations using AI driven con
 </ul>
 </details>
 
+<br/>
+
+<!-- VERTICAL SCANLINES -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/scanlines.svg?v=2" width="80%" />
+</div>
+
+<br/>
+
+---
 
 ## 🛠️ Technology Stack
 
+<div align="center">
 
+<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=chainlink&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/Asyncio-0D1117?style=for-the-badge&logo=python&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/FAISS-0D1117?style=for-the-badge&logo=meta&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/Ollama-0D1117?style=for-the-badge&logo=ollama&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/GCP-0D1117?style=for-the-badge&logo=google-cloud&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=next.js&logoColor=64FFDA"/>
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=64FFDA"/>
+
+</div>
+
+<br/>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Asyncio-FFD43B?style=for-the-badge&logo=python&logoColor=black"/>
-<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-232323?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<sub>Silent systems · Living light · Compounding skill</sub>
 </div>
 
 

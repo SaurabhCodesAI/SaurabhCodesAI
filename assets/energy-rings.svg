@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+  <rect width="1200" height="60" fill="#0D1117"/>
+  <circle cx="600" cy="30" r="5" fill="#64FFDA" opacity="0.9"/>
+  <circle cx="600" cy="30" r="15" fill="none" stroke="#64FFDA" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" from="10" to="100" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.8" to="0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="30" r="15" fill="none" stroke="#64FFDA" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" from="10" to="100" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.8" to="0" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="30" r="15" fill="none" stroke="#64FFDA" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" from="10" to="100" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.8" to="0" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="30" r="15" fill="none" stroke="#64FFDA" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" from="10" to="100" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.8" to="0" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
