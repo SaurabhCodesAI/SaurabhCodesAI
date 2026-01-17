@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 8" preserveAspectRatio="none">
+  <rect width="1200" height="8" fill="#0D1117"/>
+  <line x1="-150" y1="4" x2="0" y2="4" stroke="#FF3333" stroke-width="1">
+    <animate attributeName="x1" from="-150" to="1200" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="1350" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -20,9 +20,9 @@
   <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=3" width="85%" />
 </div>
 
-<!-- RED PULSE LINE -->
+<!-- RED LINE -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/red-pulse.svg?v=3" width="100%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/redline.svg" width="100%" />
 </div>
 
 <br/>
