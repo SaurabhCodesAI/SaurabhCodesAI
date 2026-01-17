@@ -17,7 +17,12 @@
 
 <!-- DIAGONAL NEURAL PULSE -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=2" width="85%" />
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/diagonal-pulse.svg?v=3" width="85%" />
+</div>
+
+<!-- RED PULSE LINE -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SaurabhCodesAI/SaurabhCodesAI/main/assets/red-pulse.svg?v=1" width="100%" />
 </div>
 
 <br/>
@@ -130,12 +135,6 @@ Transforms screenshots, images, and notes into presentations using AI driven con
 <img src="https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=next.js&logoColor=64FFDA"/>
 <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=64FFDA"/>
 
-</div>
-
-<br/>
-
-<div align="center">
-<sub>Silent systems · Living light · Compounding skill</sub>
 </div>
 
 
